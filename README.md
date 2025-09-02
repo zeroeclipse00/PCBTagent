@@ -1,4 +1,4 @@
-# PCB OCR Agent修正工具
+# PCBTagent:A Knowledge-Driven Multi-Agent Framework for High-Precision Text Recognition in Complex PCB Schematics
 本项目是一个使用大语言模型（LLM）对 PCB 原理图进行光学字符识别（OCR）的纠正工具。它采用了一种轻量级的检索增强生成（RAG）策略，通过向模型提供领域知识和修正规则，以批处理的方式修正 OCR 结果。
 ## 数据格式
 .txt文件，每行格式为class_id x y w h gt||ocr conf
