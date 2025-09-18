@@ -7,8 +7,6 @@ import random
 import logging
 import requests
 from typing import List, Dict
-
-# 从 config 模块导入配置
 from config import (
     OPENAI_API_KEY, OPENAI_BASE_URL, OPENAI_MODEL,
     DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL

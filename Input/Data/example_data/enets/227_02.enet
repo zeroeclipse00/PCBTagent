@@ -1,0 +1,652 @@
+{
+    "gge1": {
+        "props": {
+            "Description": "",
+            "Designator": "1/4",
+            "Footprint": "d35c71ff31094cf88806adbda1711417",
+            "Origin Footprint": "LED-0603",
+            "Unique ID": "gge1",
+            "Device": "62a8113198184eee8c31681d5f4967ef",
+            "Symbol": "a1ba9913f3bf48cb948fff15c50a3a56",
+            "Name": "FC-DA1608HRK-620D",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e35",
+            "FootprintName": "LED-0603",
+            "DeviceName": "FC-DA1608HRK-620D",
+            "SymbolName": "FC-DA1608HRK-620D"
+        },
+        "pins": {
+            "1": "$1N957",
+            "2": "$1N950"
+        }
+    },
+    "gge2": {
+        "props": {
+            "Description": "",
+            "Designator": "U1",
+            "Footprint": "3b14127569d643b9b2001d28d8ae564f",
+            "Origin Footprint": "ESOP-8-EP",
+            "Unique ID": "gge2",
+            "Device": "3693e1ddd92d4dc6afa9014c68d23832",
+            "Symbol": "22d9f612c1b14bc4a6bea6d1ce7d874a",
+            "Name": "IP5306",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e54",
+            "FootprintName": "ESOP-8-EP",
+            "DeviceName": "IP5306",
+            "SymbolName": "IP5306"
+        },
+        "pins": {
+            "1": "VCC",
+            "2": "$1N957",
+            "3": "$1N958",
+            "4": "$1N955",
+            "5": "$1N954",
+            "6": "$1N953",
+            "7": "$1N952",
+            "8": "$1N1011",
+            "9": "GND"
+        }
+    },
+    "gge3": {
+        "props": {
+            "Description": "",
+            "Designator": "1/2",
+            "Footprint": "8a00a21fa28640aeaf2d8d2c2cd4b274",
+            "Origin Footprint": "LED-0603",
+            "Unique ID": "gge3",
+            "Device": "46c7f5382da64a6ebde0135b27ce79ec",
+            "Symbol": "a1ba9913f3bf48cb948fff15c50a3a56",
+            "Name": "FC-DA1608HRK-620D",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e103",
+            "FootprintName": "LED-0603",
+            "DeviceName": "FC-DA1608HRK-620D",
+            "SymbolName": "FC-DA1608HRK-620D"
+        },
+        "pins": {
+            "1": "$1N950",
+            "2": "$1N957"
+        }
+    },
+    "gge4": {
+        "props": {
+            "Description": "",
+            "Designator": "4/4",
+            "Footprint": "8a00a21fa28640aeaf2d8d2c2cd4b274",
+            "Origin Footprint": "LED-0603",
+            "Unique ID": "gge4",
+            "Device": "46c7f5382da64a6ebde0135b27ce79ec",
+            "Symbol": "a1ba9913f3bf48cb948fff15c50a3a56",
+            "Name": "FC-DA1608HRK-620D",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e122",
+            "FootprintName": "LED-0603",
+            "DeviceName": "FC-DA1608HRK-620D",
+            "SymbolName": "FC-DA1608HRK-620D"
+        },
+        "pins": {
+            "1": "$1N950",
+            "2": "$1N958"
+        }
+    },
+    "gge5": {
+        "props": {
+            "Description": "",
+            "Designator": "3/4",
+            "Footprint": "d35c71ff31094cf88806adbda1711417",
+            "Origin Footprint": "LED-0603",
+            "Unique ID": "gge5",
+            "Device": "62a8113198184eee8c31681d5f4967ef",
+            "Symbol": "a1ba9913f3bf48cb948fff15c50a3a56",
+            "Name": "FC-DA1608HRK-620D",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e141",
+            "FootprintName": "LED-0603",
+            "DeviceName": "FC-DA1608HRK-620D",
+            "SymbolName": "FC-DA1608HRK-620D"
+        },
+        "pins": {
+            "1": "$1N958",
+            "2": "$1N950"
+        }
+    },
+    "gge6": {
+        "props": {
+            "Description": "",
+            "Designator": "R1",
+            "Footprint": "97345dd99abe4a56af0dacc8ce47c04a",
+            "Origin Footprint": "R1206",
+            "Unique ID": "gge6",
+            "Device": "2d6af9ef5a6640f39a69a6d980a592c3",
+            "Symbol": "c27ea051d0694a02ab7d6270b3b4a024",
+            "Name": "2",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e160",
+            "FootprintName": "R0603",
+            "DeviceName": "2",
+            "SymbolName": "2"
+        },
+        "pins": {
+            "1": "VCC",
+            "2": "$1N956"
+        }
+    },
+    "gge7": {
+        "props": {
+            "Description": "",
+            "Designator": "R3",
+            "Footprint": "97345dd99abe4a56af0dacc8ce47c04a",
+            "Origin Footprint": "R0603",
+            "Unique ID": "gge7",
+            "Device": "4eff48404deb43c4b6f0ca24103b4514",
+            "Symbol": "efcdb12c9fb345dab0fcf1b465e02d9c",
+            "Name": "4.7K",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e188",
+            "FootprintName": "R0603",
+            "DeviceName": "4.7K",
+            "SymbolName": "4.7K"
+        },
+        "pins": {
+            "1": "$1N1023",
+            "2": "$1N954"
+        }
+    },
+    "gge8": {
+        "props": {
+            "Description": "",
+            "Designator": "R4",
+            "Footprint": "97345dd99abe4a56af0dacc8ce47c04a",
+            "Origin Footprint": "R1210",
+            "Unique ID": "gge8",
+            "Device": "acd4e9994fb741bb907d9a6ffdaedcfb",
+            "Symbol": "e29d97b982d04296b4fd575a3593c12a",
+            "Name": "0.5",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e207",
+            "FootprintName": "R0603",
+            "DeviceName": "0.5",
+            "SymbolName": "0.5"
+        },
+        "pins": {
+            "1": "$1N953",
+            "2": "VBAT+"
+        }
+    },
+    "gge9": {
+        "props": {
+            "Description": "",
+            "Designator": "L1",
+            "Footprint": "4bf5c4d64b3d42c294ded6dcb1d915a7",
+            "Origin Footprint": "6530",
+            "Unique ID": "gge9",
+            "Device": "c1e58475597843f59c77444c2c2dc5b9",
+            "Symbol": "c490d99032a445dd9780b16d59fbdbd2",
+            "Name": "1uH",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e235",
+            "FootprintName": "l0402",
+            "DeviceName": "1uH",
+            "SymbolName": "1uH"
+        },
+        "pins": {
+            "1": "$1N952",
+            "2": "VBAT+"
+        }
+    },
+    "gge10": {
+        "props": {
+            "Description": "",
+            "Designator": "C5",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1210",
+            "Unique ID": "gge10",
+            "Device": "1b92c24319f64b028eda72874ec6d37d",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22UF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e254",
+            "FootprintName": "c0603",
+            "DeviceName": "100UF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "VBAT+"
+        }
+    },
+    "gge11": {
+        "props": {
+            "Description": "",
+            "Designator": "C3",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1206",
+            "Unique ID": "gge11",
+            "Device": "99a23f4017794263985e96e4463555ae",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22UF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e273",
+            "FootprintName": "c0603",
+            "DeviceName": "22uF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "$1N953"
+        }
+    },
+    "gge12": {
+        "props": {
+            "Description": "",
+            "Designator": "C2",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1210",
+            "Unique ID": "gge12",
+            "Device": "5687bfcd84f84e30b380420b1d5cffad",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22uF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e292",
+            "FootprintName": "c0603",
+            "DeviceName": "22uF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "VCC"
+        }
+    },
+    "gge13": {
+        "props": {
+            "Description": "",
+            "Designator": "C1",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1206",
+            "Unique ID": "gge13",
+            "Device": "99a23f4017794263985e96e4463555ae",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22uF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e311",
+            "FootprintName": "c0603",
+            "DeviceName": "22uF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "$1N956"
+        }
+    },
+    "gge14": {
+        "props": {
+            "Description": "",
+            "Designator": "R2",
+            "Footprint": "97345dd99abe4a56af0dacc8ce47c04a",
+            "Origin Footprint": "R0603",
+            "Unique ID": "gge14",
+            "Device": "4eff48404deb43c4b6f0ca24103b4514",
+            "Symbol": "efcdb12c9fb345dab0fcf1b465e02d9c",
+            "Name": "4.7K",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e339",
+            "FootprintName": "R0603",
+            "DeviceName": "4.7K",
+            "SymbolName": "4.7K"
+        },
+        "pins": {
+            "1": "$1N955",
+            "2": "$1N950"
+        }
+    },
+    "gge15": {
+        "props": {
+            "Description": "",
+            "Designator": "C4",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1210",
+            "Unique ID": "gge15",
+            "Device": "1b92c24319f64b028eda72874ec6d37d",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22UF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e358",
+            "FootprintName": "c0603",
+            "DeviceName": "100UF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "$1N1011",
+            "2": "GND"
+        }
+    },
+    "gge16": {
+        "props": {
+            "Description": "",
+            "Designator": "C6",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1210",
+            "Unique ID": "gge16",
+            "Device": "1b92c24319f64b028eda72874ec6d37d",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22UF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e386",
+            "FootprintName": "c0603",
+            "DeviceName": "100UF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "$1N1011",
+            "2": "GND"
+        }
+    },
+    "gge17": {
+        "props": {
+            "Description": "",
+            "Designator": "C7",
+            "Footprint": "78382143b6ed4002a91b906663839ec7",
+            "Origin Footprint": "C1210",
+            "Unique ID": "gge17",
+            "Device": "1b92c24319f64b028eda72874ec6d37d",
+            "Symbol": "8501fe87f5dd488dbd4f84096ad84e30",
+            "Name": "22UF",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e405",
+            "FootprintName": "c0603",
+            "DeviceName": "100UF",
+            "SymbolName": "100UF"
+        },
+        "pins": {
+            "1": "$1N1011",
+            "2": "GND"
+        }
+    },
+    "gge18": {
+        "props": {
+            "Footprint": "a5218f5a70f2427e81952f4fa2056d4a",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18722935",
+            "Manufacturer": "HanElectricity(瀚源)",
+            "Manufacturer Part": "2541FV-2x8P",
+            "LCSC Part Name": "间距:2.54mm 2x8P 直插",
+            "Supplier Footprint": "插件,P=2.54mm",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20231018/348A30CBB18FAA04E40F2CE12A6EAA75.pdf",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "3D Model": "26a8007b66f34809b7d7b7a80b939f85",
+            "3D Model Title": "HDR-TH_16P-P2.54-F-LI-2X8P",
+            "3D Model Transform": "815.746,196.85,0,0,0,0,0,0,-129.921",
+            "Holes Structure": "2x8P",
+            "Pitch": "2.54mm",
+            "Circular Hole / Square Hole": "方孔",
+            "Mounting Type": "直插",
+            "Number of Rows": "双排",
+            "Number of Holes": "16P",
+            "Current Rating (Max)": "3A",
+            "Voltage Rating (Max)": "250V",
+            "Holes Direction": "顶部",
+            "Operating Temperature Range": "-40℃~+105℃",
+            "Description": "插孔结构:2x8P;间距:2.54mm;圆孔/方孔:方孔;安装类型:直插;排数:双排;总孔位数:16P;额定电流:3A;额定电压:250V;插孔方向:顶部;工作温度范围:-40℃~+105℃;",
+            "Symbol": "746d9ffb103e4621b5972120db6dc37b",
+            "Designator": "U17",
+            "Name": "={Manufacturer Part}",
+            "Device": "9abe702c331147669185384affe37b17",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e424",
+            "Unique ID": "gge18",
+            "FootprintName": "HDR-TH_16P-P2.54-V-F-R2-C8-S2.54",
+            "DeviceName": "2541FV-2x8P",
+            "SymbolName": "2541FV-2X8P"
+        },
+        "pins": {
+            "1": "PA0",
+            "2": "PB3",
+            "3": "PA8",
+            "4": "PB4",
+            "5": "PA9",
+            "6": "PB5",
+            "7": "PA10",
+            "8": "B3",
+            "9": "PA11",
+            "10": "B0",
+            "11": "PA12",
+            "12": "B1",
+            "13": "PA15",
+            "14": "PA1",
+            "15": "GND",
+            "16": "3V3"
+        }
+    },
+    "gge19": {
+        "props": {
+            "Footprint": "a5218f5a70f2427e81952f4fa2056d4a",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18722935",
+            "Manufacturer": "HanElectricity(瀚源)",
+            "Manufacturer Part": "2541FV-2x8P",
+            "LCSC Part Name": "间距:2.54mm 2x8P 直插",
+            "Supplier Footprint": "插件,P=2.54mm",
+            "JLCPCB Part Class": "",
+            "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20231018/348A30CBB18FAA04E40F2CE12A6EAA75.pdf",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "3D Model": "26a8007b66f34809b7d7b7a80b939f85",
+            "3D Model Title": "HDR-TH_16P-P2.54-F-LI-2X8P",
+            "3D Model Transform": "815.746,196.85,0,0,0,0,0,0,-129.921",
+            "Holes Structure": "2x8P",
+            "Pitch": "2.54mm",
+            "Circular Hole / Square Hole": "方孔",
+            "Mounting Type": "直插",
+            "Number of Rows": "双排",
+            "Number of Holes": "16P",
+            "Current Rating (Max)": "3A",
+            "Voltage Rating (Max)": "250V",
+            "Holes Direction": "顶部",
+            "Operating Temperature Range": "-40℃~+105℃",
+            "Description": "插孔结构:2x8P;间距:2.54mm;圆孔/方孔:方孔;安装类型:直插;排数:双排;总孔位数:16P;额定电流:3A;额定电压:250V;插孔方向:顶部;工作温度范围:-40℃~+105℃;",
+            "Symbol": "746d9ffb103e4621b5972120db6dc37b",
+            "Designator": "U18",
+            "Name": "={Manufacturer Part}",
+            "Device": "9abe702c331147669185384affe37b17",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e506",
+            "Unique ID": "gge19",
+            "FootprintName": "HDR-TH_16P-P2.54-V-F-R2-C8-S2.54",
+            "DeviceName": "2541FV-2x8P",
+            "SymbolName": "2541FV-2X8P"
+        },
+        "pins": {
+            "1": "PA2",
+            "2": "PA5",
+            "3": "PB11",
+            "4": "PA4",
+            "5": "PB10",
+            "6": "B2",
+            "7": "PB1",
+            "8": "B8",
+            "9": "PB0",
+            "10": "PA3",
+            "11": "PA7",
+            "12": "5V",
+            "13": "PA6",
+            "14": "5V",
+            "15": "3V3",
+            "16": "GND"
+        }
+    },
+    "gge20": {
+        "props": {
+            "LCSC Part Name": "间距:2.54mm 直插",
+            "Supplier Part": "C6818923",
+            "Manufacturer": "TE Connectivity(泰科电子)",
+            "Manufacturer Part": "5-146466-4",
+            "Supplier Footprint": "插件,P=2.54mm",
+            "JLCPCB Part Class": "扩展库",
+            "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20231023/ENG_CD_146466_B_baseFilename.pdf-e3b4da5a00c046eae03bbb82699effcb.pdf",
+            "Supplier": "LCSC",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Footprint": "27faf1b435be4fd4ad8cf389edd9f9c6",
+            "Pitch": "2.54mm",
+            "Mounting Type": "直插",
+            "Number of Rows": "单排",
+            "Number of Pins": "4P",
+            "Contact Plating": "金",
+            "Color": "黑色",
+            "Description": "间距:2.54mm;安装类型:直插;排数:单排;总PIN位数:4P;触头镀层:金;颜色:黑色;",
+            "Symbol": "0b263bf0f2d04bc7a7a46fd0fef29b19",
+            "Designator": "U24",
+            "Name": "={Manufacturer Part}",
+            "Device": "08200c6eb13c452ca95932f4101ec79c",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e812",
+            "Unique ID": "gge20",
+            "FootprintName": "HDR-TH_4P-P2.54-V-M-A",
+            "DeviceName": "5-146466-4",
+            "SymbolName": "5-146466-4"
+        },
+        "pins": {
+            "1": "VCC",
+            "2": "VCC",
+            "3": "5V",
+            "4": "5V"
+        }
+    },
+    "gge21": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "9e87e37199db4d42802ddc15ca2d5f0b",
+            "Footprint": "0a910558113845db801021a1fde754e5",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "U25",
+            "Device": "eef719cf2e3840b49a64bd2b723917e6",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e860",
+            "Unique ID": "gge21",
+            "FootprintName": "2p焊盘",
+            "DeviceName": "2P焊盘",
+            "SymbolName": "2P焊盘"
+        },
+        "pins": {
+            "1": "VBAT+",
+            "2": "GND"
+        }
+    },
+    "gge22": {
+        "props": {
+            "Symbol": "045c585eed604ebab86384a232330d60",
+            "Footprint": "ea582df773e0473c94c3d7484bfa4253",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "SS-12F44 3脚2档立式 柄高5mm",
+            "Device": "e856b729117944b4a1ff2eeaf047d1be",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e882",
+            "Name": "",
+            "Unique ID": "gge22",
+            "Designator": "U4",
+            "FootprintName": "SS-12F44",
+            "DeviceName": "SS-12F44",
+            "SymbolName": "SS-12F44"
+        },
+        "pins": {
+            "1": "",
+            "2": "5V",
+            "3": "$1N1011",
+            "4": "",
+            "5": ""
+        }
+    },
+    "gge23": {
+        "props": {
+            "Symbol": "be29b9616fe24aac87bbb3a5a39f73d6",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Footprint": "b1202de870694c64b83d7f222d641153",
+            "Supplier Footprint": "SMD",
+            "3D Model": "90d18ad19a7e424ebd3215e1b5dcb80c|0819f05c4eef4c71ace90d822a990e87",
+            "3D Model Title": "KEY-SMD_2P-L6.0-W3.6-H2.5-LS8.0 COPY",
+            "3D Model Transform": "311.02,141.73,102.36,0,0,0,0,0,0",
+            "Description": "",
+            "Designator": "SW2",
+            "Device": "c4e3140aad1349038fac542e8ee4f6f7",
+            "Name": "",
+            "Unique ID": "gge23",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e923",
+            "FootprintName": "Key_SMD_3.6x6.1x2.5",
+            "DeviceName": "Key_SMD_3.6x6.1x2.5",
+            "SymbolName": "轻触按键x2"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "$1N1023"
+        }
+    }
+}

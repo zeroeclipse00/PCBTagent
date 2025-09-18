@@ -1,0 +1,2310 @@
+{
+    "gge44": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "2.54pitch6P",
+            "Supplier Part": "C24361",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "M1",
+            "Footprint": "07ddfbba68f14bbfa7ed240fe14987be",
+            "Origin Footprint": "CONN-TH_6P-P2.54_2.54-6P",
+            "Unique ID": "gge44",
+            "Device": "77d914e5963d42beab4552f6eeca1bc1",
+            "Symbol": "f379d9217ecb4fccbd84a6c003d4a537",
+            "Name": "2.54pitch 6P",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e70",
+            "FootprintName": "CONN-TH_6P-P2.54_2.54-6P",
+            "DeviceName": "2.54pitch 6P",
+            "SymbolName": "2.54pitch 6P"
+        },
+        "pins": {
+            "1": "Q1PWM1",
+            "2": "GND",
+            "3": "1C1",
+            "4": "1C2",
+            "5": "5V",
+            "6": "Q1PWM2"
+        }
+    },
+    "gge45": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "2.54pitch6P",
+            "Supplier Part": "C24361",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "M2",
+            "Footprint": "07ddfbba68f14bbfa7ed240fe14987be",
+            "Origin Footprint": "CONN-TH_6P-P2.54_2.54-6P",
+            "Unique ID": "gge45",
+            "Device": "77d914e5963d42beab4552f6eeca1bc1",
+            "Symbol": "f379d9217ecb4fccbd84a6c003d4a537",
+            "Name": "2.54pitch 6P",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e106",
+            "FootprintName": "CONN-TH_6P-P2.54_2.54-6P",
+            "DeviceName": "2.54pitch 6P",
+            "SymbolName": "2.54pitch 6P"
+        },
+        "pins": {
+            "1": "Q2PWM1",
+            "2": "GND",
+            "3": "2C1",
+            "4": "2C2",
+            "5": "5V",
+            "6": "Q2PWM2"
+        }
+    },
+    "gge4": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "12V1",
+            "Footprint": "a3dc637829ab4baeb732fd4e5c4e00ed",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge4",
+            "Device": "db04f21713e241fab0f1f949643cbaa5",
+            "Symbol": "c95df615b6be48c4a0c9fc9e14d694d4",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e169",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "12V",
+            "2": "GND"
+        }
+    },
+    "gge5": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "5V1",
+            "Footprint": "a3dc637829ab4baeb732fd4e5c4e00ed",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge5",
+            "Device": "db04f21713e241fab0f1f949643cbaa5",
+            "Symbol": "c95df615b6be48c4a0c9fc9e14d694d4",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e195",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "GND"
+        }
+    },
+    "gge34": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "3V3",
+            "Footprint": "a3dc637829ab4baeb732fd4e5c4e00ed",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge34",
+            "Device": "db04f21713e241fab0f1f949643cbaa5",
+            "Symbol": "c95df615b6be48c4a0c9fc9e14d694d4",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e230",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "GND"
+        }
+    },
+    "gge48": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "6V3",
+            "Footprint": "a3dc637829ab4baeb732fd4e5c4e00ed",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge48",
+            "Device": "db04f21713e241fab0f1f949643cbaa5",
+            "Symbol": "c95df615b6be48c4a0c9fc9e14d694d4",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e265",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge2": {
+        "props": {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "GND_test1",
+            "Footprint": "87ecb439ea504f03908941d50c787ad7",
+            "Origin Footprint": "HDR-F-2.54_1X3",
+            "Unique ID": "gge2",
+            "Device": "f3c07599415d4ec182d5e32cc7543d2d",
+            "Symbol": "e49d0f6451fe4ec5aa104de9c6eff5e1",
+            "Name": "HDR-F-2.54_1x3",
+            "image": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e300",
+            "FootprintName": "HDR-F-2.54_1X3",
+            "DeviceName": "HDR-F-2.54_1x3",
+            "SymbolName": "HDR-F-2.54_1x3"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "GND",
+            "3": "GND"
+        }
+    },
+    "gge1": {
+        "props": {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "3V3_test1",
+            "Footprint": "87ecb439ea504f03908941d50c787ad7",
+            "Origin Footprint": "HDR-F-2.54_1X3",
+            "Unique ID": "gge1",
+            "Device": "f3c07599415d4ec182d5e32cc7543d2d",
+            "Symbol": "e49d0f6451fe4ec5aa104de9c6eff5e1",
+            "Name": "HDR-F-2.54_1x3",
+            "image": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e336",
+            "FootprintName": "HDR-F-2.54_1X3",
+            "DeviceName": "HDR-F-2.54_1x3",
+            "SymbolName": "HDR-F-2.54_1x3"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "3V3",
+            "3": "3V3"
+        }
+    },
+    "gge3": {
+        "props": {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "5V_test1",
+            "Footprint": "87ecb439ea504f03908941d50c787ad7",
+            "Origin Footprint": "HDR-F-2.54_1X3",
+            "Unique ID": "gge3",
+            "Device": "f3c07599415d4ec182d5e32cc7543d2d",
+            "Symbol": "e49d0f6451fe4ec5aa104de9c6eff5e1",
+            "Name": "HDR-F-2.54_1x3",
+            "image": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e363",
+            "FootprintName": "HDR-F-2.54_1X3",
+            "DeviceName": "HDR-F-2.54_1x3",
+            "SymbolName": "HDR-F-2.54_1x3"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "5V",
+            "3": "5V"
+        }
+    },
+    "gge6": {
+        "props": {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "6V3_test1",
+            "Footprint": "87ecb439ea504f03908941d50c787ad7",
+            "Origin Footprint": "HDR-F-2.54_1X3",
+            "Unique ID": "gge6",
+            "Device": "f3c07599415d4ec182d5e32cc7543d2d",
+            "Symbol": "e49d0f6451fe4ec5aa104de9c6eff5e1",
+            "Name": "HDR-F-2.54_1x3",
+            "image": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e390",
+            "FootprintName": "HDR-F-2.54_1X3",
+            "DeviceName": "HDR-F-2.54_1x3",
+            "SymbolName": "HDR-F-2.54_1x3"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "6V3",
+            "3": "6V3"
+        }
+    },
+    "gge7": {
+        "props": {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "12V_test1",
+            "Footprint": "87ecb439ea504f03908941d50c787ad7",
+            "Origin Footprint": "HDR-F-2.54_1X3",
+            "Unique ID": "gge7",
+            "Device": "f3c07599415d4ec182d5e32cc7543d2d",
+            "Symbol": "e49d0f6451fe4ec5aa104de9c6eff5e1",
+            "Name": "HDR-F-2.54_1x3",
+            "image": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e417",
+            "FootprintName": "HDR-F-2.54_1X3",
+            "DeviceName": "HDR-F-2.54_1x3",
+            "SymbolName": "HDR-F-2.54_1x3"
+        },
+        "pins": {
+            "1": "12V",
+            "2": "12V",
+            "3": "12V"
+        }
+    },
+    "gge51": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM1",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge51",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e444",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR1",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge52": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM2",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge52",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e471",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR2",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge54": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM3",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge54",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e498",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR3",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge55": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM4",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge55",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e525",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR4",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge8": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R1",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e552",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "M1PWM1"
+        }
+    },
+    "gge9": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R2",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge9",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e576",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "M1PWM2"
+        }
+    },
+    "gge10": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R3",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge10",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e600",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "M2PWM1",
+            "2": "GND"
+        }
+    },
+    "gge11": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R4",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge11",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e624",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "M2PWM2",
+            "2": "GND"
+        }
+    },
+    "gge12": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "2.54pitch6P",
+            "Supplier Part": "C24361",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "M3",
+            "Footprint": "07ddfbba68f14bbfa7ed240fe14987be",
+            "Origin Footprint": "CONN-TH_6P-P2.54_2.54-6P",
+            "Unique ID": "gge12",
+            "Device": "77d914e5963d42beab4552f6eeca1bc1",
+            "Symbol": "f379d9217ecb4fccbd84a6c003d4a537",
+            "Name": "2.54pitch 6P",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e692",
+            "FootprintName": "CONN-TH_6P-P2.54_2.54-6P",
+            "DeviceName": "2.54pitch 6P",
+            "SymbolName": "2.54pitch 6P"
+        },
+        "pins": {
+            "1": "Q3PWM1",
+            "2": "GND",
+            "3": "3C1",
+            "4": "3C2",
+            "5": "5V",
+            "6": "Q3PWM2"
+        }
+    },
+    "gge13": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "2.54pitch6P",
+            "Supplier Part": "C24361",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "M4",
+            "Footprint": "07ddfbba68f14bbfa7ed240fe14987be",
+            "Origin Footprint": "CONN-TH_6P-P2.54_2.54-6P",
+            "Unique ID": "gge13",
+            "Device": "77d914e5963d42beab4552f6eeca1bc1",
+            "Symbol": "f379d9217ecb4fccbd84a6c003d4a537",
+            "Name": "2.54pitch 6P",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e728",
+            "FootprintName": "CONN-TH_6P-P2.54_2.54-6P",
+            "DeviceName": "2.54pitch 6P",
+            "SymbolName": "2.54pitch 6P"
+        },
+        "pins": {
+            "1": "Q4PWM1",
+            "2": "GND",
+            "3": "4C1",
+            "4": "4C2",
+            "5": "5V",
+            "6": "Q4PWM2"
+        }
+    },
+    "gge15": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R5",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge15",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e782",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "M3PWM1"
+        }
+    },
+    "gge16": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R6",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge16",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e806",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "M3PWM2"
+        }
+    },
+    "gge17": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R7",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge17",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e830",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "M4PWM1",
+            "2": "GND"
+        }
+    },
+    "gge18": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "0603",
+            "Footprint": "c1dfcc8679d24d459afaaadfe071c04c",
+            "3D Model": "fc143cca1e79419f9cd78b61e9279f08",
+            "3D Model Title": "R0603",
+            "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+            "Value": "10K",
+            "Description": "",
+            "Symbol": "19b611772e0546df8065a2964a3443ad",
+            "Designator": "R8",
+            "Name": "={Value}",
+            "Device": "d0b654ffaa0e48d59c54c8fb6f445826",
+            "Unique ID": "gge18",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e854",
+            "FootprintName": "R0603",
+            "DeviceName": "Res_0603",
+            "SymbolName": "电阻"
+        },
+        "pins": {
+            "1": "M4PWM2",
+            "2": "GND"
+        }
+    },
+    "gge19": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "2a93f6fadcaa473b8ef8d9d187c2c4f1",
+            "Footprint": "bbfec9d3a0154bf4924566c6e9841c66",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "M1_DOWN1",
+            "Device": "3e144089a8e547e5a87c3ef8ccefb441",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e922",
+            "Unique ID": "gge19",
+            "FootprintName": "信号上输入4",
+            "DeviceName": "信号上输入4",
+            "SymbolName": "信号上输入4"
+        },
+        "pins": {
+            "1": "M1PWM1",
+            "2": "M1PWM2",
+            "3": "1C1",
+            "4": "1C2"
+        }
+    },
+    "gge20": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM5",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge20",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e950",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR5",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge21": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "SERVOM6",
+            "Footprint": "abb9f239f95e4e1899f55f6d5bfdc533",
+            "Origin Footprint": "ZERO.XH2.54-3P（卧式)",
+            "Unique ID": "gge21",
+            "Device": "fac36534c51a466bac1f6eba2852a342",
+            "Symbol": "9bd8350be49a49c9a6eb9433850ededb",
+            "Name": "XH2.54-3P弯",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e977",
+            "FootprintName": "ZERO.XH2.54-3P（卧式)",
+            "DeviceName": "XH2.54-3P弯",
+            "SymbolName": "XH2.54-3P弯"
+        },
+        "pins": {
+            "1": "MOTOR6",
+            "2": "6V3",
+            "3": "GND"
+        }
+    },
+    "gge22": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C10",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge22",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1004",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge23": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C11",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge23",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1035",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge24": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C12",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge24",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1066",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge25": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C13",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge25",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1097",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge26": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C14",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge26",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1128",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "gge27": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C15",
+            "Footprint": "b8edcf6c792f4c329659fdc89ac45a80",
+            "Origin Footprint": "CAP-D6.3×F2.5",
+            "Unique ID": "gge27",
+            "Device": "bbd9f9533879405f9669fcfc56d8d50e",
+            "Symbol": "507670bd27dd473a9f851b850f3ff36b",
+            "Name": "220u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1159",
+            "FootprintName": "CAP-D6.3×F2.5",
+            "DeviceName": "220u",
+            "SymbolName": "220u"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "GND"
+        }
+    },
+    "ggeaa2367947e0d2822": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "silergy(矽力杰)",
+            "Manufacturer Part": "SY6280AAC",
+            "Supplier Part": "C55136",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "U1",
+            "Footprint": "d5cab84b0e2b4c9186d26c2aa73aebe7",
+            "Origin Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+            "Unique ID": "ggeaa2367947e0d2822",
+            "Device": "b1278776efcc4372aa4b0e599a5c36c4",
+            "Symbol": "0f25640c004e487d93da52459bb99312",
+            "Name": "SY6280AAC",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1190",
+            "FootprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+            "DeviceName": "SY6280AAC",
+            "SymbolName": "SY6280AAC"
+        },
+        "pins": {
+            "1": "$1N2908",
+            "2": "GND",
+            "3": "$1N2905",
+            "4": "JIGUANG1",
+            "5": "5V"
+        }
+    },
+    "gge841f84034d28bda6": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "JG1",
+            "Footprint": "b764bb4e202e4329b863dc0460c712a3",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge841f84034d28bda6",
+            "Device": "a7daff397b0c448db03cd60aa1c6deb0",
+            "Symbol": "11a3491fe3bc4826bfbef45b935db57a",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1223",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "$1N2908",
+            "2": "GND"
+        }
+    },
+    "gged9be14805c57c836": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "R10",
+            "Footprint": "b8e75c13f9b944e0851dc912ed40705e",
+            "Origin Footprint": "R0603",
+            "Unique ID": "gged9be14805c57c836",
+            "Device": "e938d504d4464dc29788e59add7fc4a1",
+            "Symbol": "a872eafa0c5f4832a3e6c046f7e68c7b",
+            "Name": "240",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1249",
+            "FootprintName": "R0603",
+            "DeviceName": "240",
+            "SymbolName": "240"
+        },
+        "pins": {
+            "1": "$1N2905",
+            "2": "GND"
+        }
+    },
+    "gge403eabdb18df96ef": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C4",
+            "Footprint": "d739dc01f7b043aa90d6c05b238d97ea",
+            "Origin Footprint": "C0603",
+            "Unique ID": "gge403eabdb18df96ef",
+            "Device": "cd16761067794b9196444fbf42bb3c65",
+            "Symbol": "4ec75127c85f4649bdd735bcdd8c7984",
+            "Name": "0.1u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1280",
+            "FootprintName": "C0603",
+            "DeviceName": "0.1u",
+            "SymbolName": "0.1u"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "5V"
+        }
+    },
+    "ggeed386a62200d6439": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C5",
+            "Footprint": "d739dc01f7b043aa90d6c05b238d97ea",
+            "Origin Footprint": "C0603",
+            "Unique ID": "ggeed386a62200d6439",
+            "Device": "ebe4bd619b4043fa808a356ad0f0b7e7",
+            "Symbol": "719c08c664e548d38ddbe7974070b6b0",
+            "Name": "10u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1302",
+            "FootprintName": "C0603",
+            "DeviceName": "10u",
+            "SymbolName": "10u"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "$1N2908"
+        }
+    },
+    "ggef1128b0091891a54": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C7",
+            "Footprint": "d739dc01f7b043aa90d6c05b238d97ea",
+            "Origin Footprint": "C0603",
+            "Unique ID": "ggef1128b0091891a54",
+            "Device": "ebe4bd619b4043fa808a356ad0f0b7e7",
+            "Symbol": "719c08c664e548d38ddbe7974070b6b0",
+            "Name": "10u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1378",
+            "FootprintName": "C0603",
+            "DeviceName": "10u",
+            "SymbolName": "10u"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "$1N2911"
+        }
+    },
+    "ggee427bf9b609db0db": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "C6",
+            "Footprint": "d739dc01f7b043aa90d6c05b238d97ea",
+            "Origin Footprint": "C0603",
+            "Unique ID": "ggee427bf9b609db0db",
+            "Device": "cd16761067794b9196444fbf42bb3c65",
+            "Symbol": "4ec75127c85f4649bdd735bcdd8c7984",
+            "Name": "0.1u",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1400",
+            "FootprintName": "C0603",
+            "DeviceName": "0.1u",
+            "SymbolName": "0.1u"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "5V"
+        }
+    },
+    "gge28e8265fa2fba1a6": {
+        "props": {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Description": "",
+            "Designator": "R11",
+            "Footprint": "b8e75c13f9b944e0851dc912ed40705e",
+            "Origin Footprint": "R0603",
+            "Unique ID": "gge28e8265fa2fba1a6",
+            "Device": "e938d504d4464dc29788e59add7fc4a1",
+            "Symbol": "a872eafa0c5f4832a3e6c046f7e68c7b",
+            "Name": "240",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1431",
+            "FootprintName": "R0603",
+            "DeviceName": "240",
+            "SymbolName": "240"
+        },
+        "pins": {
+            "1": "$1N2916",
+            "2": "GND"
+        }
+    },
+    "gge39ac31c196d121d1": {
+        "props": {
+            "Supplier": "",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "XH2.54-4AW",
+            "Supplier Part": "C21273",
+            "Paste Type": "expand",
+            "Assembly Type": "manualWeld",
+            "Description": "",
+            "Designator": "JG2",
+            "Footprint": "b764bb4e202e4329b863dc0460c712a3",
+            "Origin Footprint": "XH2.54-2AW",
+            "Unique ID": "gge39ac31c196d121d1",
+            "Device": "a7daff397b0c448db03cd60aa1c6deb0",
+            "Symbol": "11a3491fe3bc4826bfbef45b935db57a",
+            "Name": "XH2.54-2P弯",
+            "image": "//image.lceda.cn/szlcsc/C21273.jpg",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1453",
+            "FootprintName": "XH2.54-2AW",
+            "DeviceName": "XH2.54-4AW",
+            "SymbolName": "XH2.54-2P弯"
+        },
+        "pins": {
+            "1": "$1N2911",
+            "2": "GND"
+        }
+    },
+    "ggea29f8c05aacb65e1": {
+        "props": {
+            "Supplier": "LCSC",
+            "Manufacturer": "silergy(矽力杰)",
+            "Manufacturer Part": "SY6280AAC",
+            "Supplier Part": "C55136",
+            "JLCPCB Part Class": "ExtendedPart",
+            "Description": "",
+            "Designator": "U2",
+            "Footprint": "d5cab84b0e2b4c9186d26c2aa73aebe7",
+            "Origin Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+            "Unique ID": "ggea29f8c05aacb65e1",
+            "Device": "b1278776efcc4372aa4b0e599a5c36c4",
+            "Symbol": "0f25640c004e487d93da52459bb99312",
+            "Name": "SY6280AAC",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1479",
+            "FootprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+            "DeviceName": "SY6280AAC",
+            "SymbolName": "SY6280AAC"
+        },
+        "pins": {
+            "1": "$1N2911",
+            "2": "GND",
+            "3": "$1N2916",
+            "4": "JIGUANG2",
+            "5": "5V"
+        }
+    },
+    "gge28": {
+        "props": {
+            "Footprint": "44dee1015ee04e078f688891a8c4a897",
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "2.54-1*2P母",
+            "Supplier Part": "C49661",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "a9450ef445564560a104363b9aacde4e",
+            "3D Model Title": "HDR-TH_2P-P2.54-F-LI-1X2P",
+            "3D Model Transform": "215.7476,98.425,0,0,0,0,0,0,-129.921",
+            "Description": "",
+            "Symbol": "b6fa0415049a472386b28502bef97f41",
+            "Designator": "JIGUANG1",
+            "Device": "c1028cd8d1494ae8b1c558366912e911",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1512",
+            "Name": "",
+            "Unique ID": "gge28",
+            "FootprintName": "HDR-TH_2P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x2P",
+            "SymbolName": "Header-Female-2.54_1x2"
+        },
+        "pins": {
+            "1": "JIGUANG1",
+            "2": "JIGUANG2"
+        }
+    },
+    "gge307ddd07447b382e": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "INPUT1",
+            "Footprint": "9104b7954fc54916acb82d0f507ead11",
+            "Origin Footprint": "XH2.54-4P弯针",
+            "Unique ID": "gge307ddd07447b382e",
+            "Device": "19cc3205b1544f6281f50c39b6e90f42",
+            "Symbol": "a65055d7bb5c4702995264613c607fee",
+            "Name": "XH2.54-4P弯针",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1549",
+            "FootprintName": "XH2.54-4P弯针",
+            "DeviceName": "XH2.54-4P弯针",
+            "SymbolName": "XH2.54-4P弯针"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "GND",
+            "3": "ECHOI_L",
+            "4": "ECHOI_S"
+        }
+    },
+    "gge27c3d1c7a56de07e": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "OUTPUT1",
+            "Footprint": "9104b7954fc54916acb82d0f507ead11",
+            "Origin Footprint": "XH2.54-4P弯针",
+            "Unique ID": "gge27c3d1c7a56de07e",
+            "Device": "19cc3205b1544f6281f50c39b6e90f42",
+            "Symbol": "a65055d7bb5c4702995264613c607fee",
+            "Name": "XH2.54-4P弯针",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1579",
+            "FootprintName": "XH2.54-4P弯针",
+            "DeviceName": "XH2.54-4P弯针",
+            "SymbolName": "XH2.54-4P弯针"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "GND",
+            "3": "ECHOO_EN",
+            "4": "ECHOO_FB"
+        }
+    },
+    "gge29": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "2a93f6fadcaa473b8ef8d9d187c2c4f1",
+            "Footprint": "bbfec9d3a0154bf4924566c6e9841c66",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "ECHO1",
+            "Device": "3e144089a8e547e5a87c3ef8ccefb441",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1627",
+            "Unique ID": "gge29",
+            "FootprintName": "信号上输入4",
+            "DeviceName": "信号上输入4",
+            "SymbolName": "信号上输入4"
+        },
+        "pins": {
+            "1": "ECHOI_L",
+            "2": "ECHOI_S",
+            "3": "ECHOO_EN",
+            "4": "ECHOO_FB"
+        }
+    },
+    "gge30": {
+        "props": {
+            "Footprint": "ffe80d0bb56142c3acb68517e0bc78f0",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "58e9809311c04aacaf91de20fe471187",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "MOTOR1",
+            "Device": "4be23a9342a344288e7cc9c816788153",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1655",
+            "Unique ID": "gge30",
+            "FootprintName": "电源板信号输入6",
+            "DeviceName": "信号上输入6",
+            "SymbolName": "信号上输入6"
+        },
+        "pins": {
+            "1": "MOTOR1",
+            "2": "MOTOR2",
+            "3": "MOTOR3",
+            "4": "MOTOR4",
+            "5": "MOTOR5",
+            "6": "MOTOR6"
+        }
+    },
+    "gge31": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "GND_1",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1689",
+            "Unique ID": "gge31",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "GND"
+        }
+    },
+    "gge32": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "12V_1",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1711",
+            "Unique ID": "gge32",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "12V",
+            "2": "12V"
+        }
+    },
+    "gge33": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "5V_1",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1733",
+            "Unique ID": "gge33",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "5V"
+        }
+    },
+    "gge35": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "3V3_1",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1755",
+            "Unique ID": "gge35",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "3V3"
+        }
+    },
+    "gge36": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "2a93f6fadcaa473b8ef8d9d187c2c4f1",
+            "Footprint": "bbfec9d3a0154bf4924566c6e9841c66",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "M2_DOWN1",
+            "Device": "3e144089a8e547e5a87c3ef8ccefb441",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1777",
+            "Unique ID": "gge36",
+            "FootprintName": "信号上输入4",
+            "DeviceName": "信号上输入4",
+            "SymbolName": "信号上输入4"
+        },
+        "pins": {
+            "1": "M2PWM1",
+            "2": "M2PWM2",
+            "3": "2C1",
+            "4": "2C2"
+        }
+    },
+    "gge37": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "2a93f6fadcaa473b8ef8d9d187c2c4f1",
+            "Footprint": "bbfec9d3a0154bf4924566c6e9841c66",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "M3_DOWN1",
+            "Device": "3e144089a8e547e5a87c3ef8ccefb441",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1805",
+            "Unique ID": "gge37",
+            "FootprintName": "信号上输入4",
+            "DeviceName": "信号上输入4",
+            "SymbolName": "信号上输入4"
+        },
+        "pins": {
+            "1": "M3PWM1",
+            "2": "M3PWM2",
+            "3": "3C1",
+            "4": "3C2"
+        }
+    },
+    "gge38": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "2a93f6fadcaa473b8ef8d9d187c2c4f1",
+            "Footprint": "bbfec9d3a0154bf4924566c6e9841c66",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "M4_DOWN1",
+            "Device": "3e144089a8e547e5a87c3ef8ccefb441",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1833",
+            "Unique ID": "gge38",
+            "FootprintName": "信号上输入4",
+            "DeviceName": "信号上输入4",
+            "SymbolName": "信号上输入4"
+        },
+        "pins": {
+            "1": "M4PWM1",
+            "2": "M4PWM2",
+            "3": "4C1",
+            "4": "4C2"
+        }
+    },
+    "gge39": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "Symbol": "915eb0a10f4c4dfa879ebd75ebfdbfc6",
+            "Footprint": "1e8183479e6e457aabc52abb62a584c9",
+            "Description": "",
+            "Designator": "TP1",
+            "Name": "",
+            "Device": "377891b8f5bd45ffa15b585313bdf530",
+            "Unique ID": "gge39",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1861",
+            "FootprintName": "M3螺丝",
+            "DeviceName": "M3螺丝",
+            "SymbolName": "螺丝孔"
+        },
+        "pins": {
+            "1": ""
+        }
+    },
+    "gge40": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "Symbol": "915eb0a10f4c4dfa879ebd75ebfdbfc6",
+            "Footprint": "1e8183479e6e457aabc52abb62a584c9",
+            "Description": "",
+            "Designator": "TP2",
+            "Name": "",
+            "Device": "377891b8f5bd45ffa15b585313bdf530",
+            "Unique ID": "gge40",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1879",
+            "FootprintName": "M3螺丝",
+            "DeviceName": "M3螺丝",
+            "SymbolName": "螺丝孔"
+        },
+        "pins": {
+            "1": ""
+        }
+    },
+    "gge41": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "Symbol": "915eb0a10f4c4dfa879ebd75ebfdbfc6",
+            "Footprint": "1e8183479e6e457aabc52abb62a584c9",
+            "Description": "",
+            "Designator": "TP3",
+            "Name": "",
+            "Device": "377891b8f5bd45ffa15b585313bdf530",
+            "Unique ID": "gge41",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1897",
+            "FootprintName": "M3螺丝",
+            "DeviceName": "M3螺丝",
+            "SymbolName": "螺丝孔"
+        },
+        "pins": {
+            "1": ""
+        }
+    },
+    "gge42": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "Symbol": "915eb0a10f4c4dfa879ebd75ebfdbfc6",
+            "Footprint": "1e8183479e6e457aabc52abb62a584c9",
+            "Description": "",
+            "Designator": "TP4",
+            "Name": "",
+            "Device": "377891b8f5bd45ffa15b585313bdf530",
+            "Unique ID": "gge42",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1915",
+            "FootprintName": "M3螺丝",
+            "DeviceName": "M3螺丝",
+            "SymbolName": "螺丝孔"
+        },
+        "pins": {
+            "1": ""
+        }
+    },
+    "gge43": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "8551dedfafb04131a7b9a055ec14bb93",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Designator": "TMC2209_1",
+            "Footprint": "d9ff84a055784ddcbbeec1b74a675011",
+            "Name": "",
+            "Device": "19acf6e8eab442a1b73a69746e078e17",
+            "Unique ID": "gge43",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1933",
+            "FootprintName": "TMC2209",
+            "DeviceName": "TMC2209",
+            "SymbolName": "TMC2209"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "3V3",
+            "3": "M2B",
+            "4": "M2A",
+            "5": "M1A",
+            "6": "M1B",
+            "7": "GND",
+            "8": "12V",
+            "9": "MOTOR1",
+            "10": "MOTOR2",
+            "11": "",
+            "12": "",
+            "13": "$1N3008",
+            "14": "$1N3009",
+            "15": "$1N3010",
+            "16": "$1N3011"
+        }
+    },
+    "gge47": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "STEPMOTOR1",
+            "Footprint": "9104b7954fc54916acb82d0f507ead11",
+            "Origin Footprint": "XH2.54-4P弯针",
+            "Unique ID": "gge47",
+            "Device": "19cc3205b1544f6281f50c39b6e90f42",
+            "Symbol": "a65055d7bb5c4702995264613c607fee",
+            "Name": "XH2.54-4P弯针",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e1999",
+            "FootprintName": "XH2.54-4P弯针",
+            "DeviceName": "XH2.54-4P弯针",
+            "SymbolName": "XH2.54-4P弯针"
+        },
+        "pins": {
+            "1": "M2B",
+            "2": "M2A",
+            "3": "M1A",
+            "4": "M1B"
+        }
+    },
+    "gge49": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "645ecebd1ada4ef9897aedeb5621d9b4",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Designator": "6V1",
+            "Footprint": "6d0a2cb3ab2c45bb8a2056daf3263151",
+            "Name": "",
+            "Device": "886b83ae41104a0596422bc1616c07e5",
+            "Unique ID": "gge49",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2051",
+            "FootprintName": "信号上流4",
+            "DeviceName": "信号上流4",
+            "SymbolName": "信号上流4"
+        },
+        "pins": {
+            "1": "6V3",
+            "2": "6V3",
+            "3": "6V3",
+            "4": "6V3"
+        }
+    },
+    "gge50": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H1",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge50",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2079",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "$1N3008",
+            "3": "GND"
+        }
+    },
+    "gge53": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H2",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge53",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2110",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "$1N3009",
+            "3": "GND"
+        }
+    },
+    "gge56": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H3",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge56",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2141",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "$1N3010",
+            "3": "GND"
+        }
+    },
+    "gge57": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H4",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge57",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2172",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "$1N3011",
+            "3": "GND"
+        }
+    },
+    "gge58": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "8551dedfafb04131a7b9a055ec14bb93",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Designator": "TMC2209_2",
+            "Footprint": "d9ff84a055784ddcbbeec1b74a675011",
+            "Name": "",
+            "Device": "19acf6e8eab442a1b73a69746e078e17",
+            "Unique ID": "gge58",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2247",
+            "FootprintName": "TMC2209",
+            "DeviceName": "TMC2209",
+            "SymbolName": "TMC2209"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "3V3",
+            "3": "M4B",
+            "4": "M4A",
+            "5": "M3A",
+            "6": "M3B",
+            "7": "GND",
+            "8": "12V",
+            "9": "MOTOR3",
+            "10": "MOTOR4",
+            "11": "",
+            "12": "",
+            "13": "2PDN",
+            "14": "2MS2",
+            "15": "2MS1",
+            "16": "2EN"
+        }
+    },
+    "gge59": {
+        "props": {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Description": "",
+            "Designator": "STEPMOTOR2",
+            "Footprint": "9104b7954fc54916acb82d0f507ead11",
+            "Origin Footprint": "XH2.54-4P弯针",
+            "Unique ID": "gge59",
+            "Device": "19cc3205b1544f6281f50c39b6e90f42",
+            "Symbol": "a65055d7bb5c4702995264613c607fee",
+            "Name": "XH2.54-4P弯针",
+            "link": "",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2313",
+            "FootprintName": "XH2.54-4P弯针",
+            "DeviceName": "XH2.54-4P弯针",
+            "SymbolName": "XH2.54-4P弯针"
+        },
+        "pins": {
+            "1": "M4B",
+            "2": "M4A",
+            "3": "M3A",
+            "4": "M3B"
+        }
+    },
+    "gge60": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H5",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge60",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2365",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "2PDN",
+            "3": "GND"
+        }
+    },
+    "gge61": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H6",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge61",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2396",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "2MS2",
+            "3": "GND"
+        }
+    },
+    "gge62": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H7",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge62",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2427",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "2MS1",
+            "3": "GND"
+        }
+    },
+    "gge63": {
+        "props": {
+            "Footprint": "ae1347c1077a472f8d6fe7b7f8e9227b",
+            "Supplier": "LCSC",
+            "Supplier Part": "C541850",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PM254V-11-03-H85",
+            "JLCPCB Part Class": "Extended Part",
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Supplier Footprint": "插件",
+            "3D Model": "f3b3cc5aae9641bf9e56fc160cef875b",
+            "3D Model Title": "HDR2.54-F-LI-1X3P",
+            "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+            "Description": "",
+            "Symbol": "afb5f647f27c4f668b7e11a08addca98",
+            "Designator": "H8",
+            "Device": "dc77e76ad92f4e9282b7f39688d10bc3",
+            "Name": "",
+            "Unique ID": "gge63",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2458",
+            "FootprintName": "HDR-TH_3P-P2.54-V-F",
+            "DeviceName": "HDR-F_2.54_1x3P",
+            "SymbolName": "PM254V-11-03-H85"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "2EN",
+            "3": "GND"
+        }
+    },
+    "gge46": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "8ff4d79b0c6347cb9eda5ec7827dfbcd",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Designator": "A4950_1",
+            "Footprint": "404febeaea3c43bb8be4c943091082f5",
+            "Name": "",
+            "Device": "f75ed52a117c4154a253b541718fcde3",
+            "Unique ID": "gge46",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2533",
+            "FootprintName": "A4950",
+            "DeviceName": "A4950",
+            "SymbolName": "A4950"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "12V",
+            "3": "5V",
+            "4": "M1PWM1",
+            "5": "M1PWM2",
+            "6": "Q2PWM1",
+            "7": "Q2PWM2",
+            "8": "Q1PWM1",
+            "9": "Q1PWM2",
+            "10": "M2PWM1",
+            "11": "M2PWM2",
+            "12": "5V",
+            "13": "12V",
+            "14": "GND"
+        }
+    },
+    "gge14": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "8ff4d79b0c6347cb9eda5ec7827dfbcd",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Designator": "A4950_2",
+            "Footprint": "404febeaea3c43bb8be4c943091082f5",
+            "Name": "",
+            "Device": "f75ed52a117c4154a253b541718fcde3",
+            "Unique ID": "gge14",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2591",
+            "FootprintName": "A4950",
+            "DeviceName": "A4950",
+            "SymbolName": "A4950"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "12V",
+            "3": "5V",
+            "4": "M3PWM1",
+            "5": "M3PWM2",
+            "6": "Q4PWM1",
+            "7": "Q4PWM2",
+            "8": "Q3PWM1",
+            "9": "Q3PWM2",
+            "10": "M4PWM1",
+            "11": "M4PWM2",
+            "12": "5V",
+            "13": "12V",
+            "14": "GND"
+        }
+    },
+    "gge64": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "GND_2",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2658",
+            "Unique ID": "gge64",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "GND",
+            "2": "GND"
+        }
+    },
+    "gge65": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "5V_2",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2680",
+            "Unique ID": "gge65",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "5V",
+            "2": "5V"
+        }
+    },
+    "gge66": {
+        "props": {
+            "Footprint": "adbb16254a8e4df1973e47415dc1b1d1",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "e327c27cebe643dcb8b09a2b99d950f9",
+            "3D Model": "",
+            "3D Model Title": "",
+            "3D Model Transform": "",
+            "Description": "",
+            "Name": "",
+            "Designator": "3V3_2",
+            "Device": "e2f4d945b4ec4db2bc8931ce17e22df8",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e2702",
+            "Unique ID": "gge66",
+            "FootprintName": "信号板电压输入",
+            "DeviceName": "信号上流2",
+            "SymbolName": "信号上流2"
+        },
+        "pins": {
+            "1": "3V3",
+            "2": "3V3"
+        }
+    }
+}

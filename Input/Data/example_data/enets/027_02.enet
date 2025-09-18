@@ -1,0 +1,38 @@
+{
+    "gge1": {
+        "props": {
+            "LCSC Part Name": "2DC1003-001111",
+            "Supplier Part": "C2840146",
+            "Manufacturer": "",
+            "Manufacturer Part": "2DC1003-001111",
+            "Supplier Footprint": "TH-9P",
+            "JLCPCB Part Class": "扩展库",
+            "Datasheet": "",
+            "Supplier": "LCSC",
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Footprint": "390171dd55424b839cc931c5c6bee200",
+            "3D Model": "17bd6300c10a4404ae5a9db7751256cd",
+            "3D Model Title": "DC-IN-TH_2DC1003-001111",
+            "3D Model Transform": "393.7,484.251,0,180,0,0,0,47.244,-78.74",
+            "Description": "",
+            "Symbol": "20b5fce6f5c943f0a8e55db9573744ec",
+            "Designator": "U1",
+            "Name": "={Manufacturer Part}",
+            "Device": "466b2829130e4c6ebeb7ede1d26a39c2",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e35",
+            "Unique ID": "gge1",
+            "FootprintName": "DC-IN-TH_2DC1003-001111",
+            "DeviceName": "2DC1003-001111",
+            "SymbolName": "2DC1003-001111"
+        },
+        "pins": {
+            "1": "+20V",
+            "2": "GND",
+            "3": "",
+            "4": ""
+        }
+    }
+}

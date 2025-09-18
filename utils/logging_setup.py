@@ -5,6 +5,8 @@
 import logging
 from typing import Optional, List
 
+LOGGER_NAME = "pcb-ocr-corrector.main"
+
 def setup_logging_original_fix(verbosity: int = 1, log_file: Optional[str] = None):
     """
     配置全局日志记录器。

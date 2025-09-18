@@ -1,7 +1,9 @@
 """
 数据行解析、重建和批处理相关的辅助函数。
 """
+import argparse
 import logging
+from pathlib import Path
 from typing import List, Tuple, Optional
 
 # 获取一个日志记录器实例，用于在本模块中记录日志
@@ -78,6 +80,66 @@ def postprocess_llm_block(raw_text: str, expected_n: int) -> Optional[List[str]]
             f"LLM returned an incorrect number of lines. "
             f"Expected: {expected_n}, Got: {len(lines)}. This batch will be retried."
         )
-        return None  # 返回 None 作为失败信号
+        return None
 
-    return lines  # 成功，返回处理好的列表
+    return lines
+
+# spn: split and wrap parser creation    
+def create_parser(INPUT_PATH: Path, OUTPUT_PATH: Path, PROVIDER: str, BATCH_SIZE: int, CONFIDENCE_THRESHOLD: float):
+    parser = argparse.ArgumentParser(
+        description="PCB OCR post-correction with lightweight RAG + LLM batching. "
+                    "Input can be a single file OR a directory."
+    )
+    parser.add_argument(
+        "--i",
+        "--input",
+        type=str,
+        default=str(INPUT_PATH),
+        help="Input path: a txt file OR a directory containing .txt"
+    )
+    parser.add_argument(
+        "--o",
+        "--output",
+        type=str,
+        default=str(OUTPUT_PATH),
+        help="Output path: if --input is file -> output txt path; if --input is dir -> output directory"
+    )
+    parser.add_argument(
+        "--provider",
+        default=PROVIDER,
+        choices=["gpt", "deepseek"],
+        help="LLM provider"
+    )
+    parser.add_argument(
+        "--batch_size",
+        type=int,
+        default=BATCH_SIZE,
+        help="Batch size (e.g., 30 or 50)"
+    )
+    parser.add_argument(
+        "--threshold",
+        type=float,
+        default=CONFIDENCE_THRESHOLD, 
+        help="Confidence threshold"
+    )
+    parser.add_argument(
+        "--include_gt",
+        action="store_true",
+        default=False,
+        help="Include GT in the prompt (default off)"
+    )
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        action="count",
+        default=1,
+        help="Increase verbosity: -v (INFO), -vv (DEBUG), -vvv (DEBUG+)."
+    )
+    parser.add_argument(
+        "--log_file",
+        default=None,
+        help="Optional log file path"
+    )
+    return parser
+
+

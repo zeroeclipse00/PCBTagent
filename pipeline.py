@@ -9,7 +9,7 @@ import logging
 from typing import List, Dict, Optional
 from tqdm import tqdm
 
-from utils.parser import parse_line, rebuild_line, chunked, postprocess_llm_block
+from utils.parser import *
 from llm_clients import call_gpt_chat, call_deepseek_chat
 from prompting import build_prompt
 

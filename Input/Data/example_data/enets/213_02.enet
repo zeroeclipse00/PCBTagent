@@ -1,0 +1,189 @@
+{
+    "gge1": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP1",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e67",
+            "Unique ID": "gge1",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge2": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP2",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e127",
+            "Unique ID": "gge2",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge3": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP3",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e140",
+            "Unique ID": "gge3",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge4": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP4",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e153",
+            "Unique ID": "gge4",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge5": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP5",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e166",
+            "Unique ID": "gge5",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge6": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP6",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e179",
+            "Unique ID": "gge6",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge7": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP7",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e192",
+            "Unique ID": "gge7",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge8": {
+        "props": {
+            "Convert to PCB": "yes",
+            "Add into BOM": "yes",
+            "Name": "",
+            "Description": "",
+            "Designator": "TP8",
+            "Symbol": "66e1f9b6a0e64c309a710649ae122a04",
+            "Footprint": "a2a8e957db8047b3a90032a7e1290853",
+            "Device": "e3b485a2529c428398bccbd4296f418d",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e205",
+            "Unique ID": "gge8",
+            "FootprintName": "M2铜柱",
+            "DeviceName": "铜柱_M2.0",
+            "SymbolName": "m2.0铜柱"
+        },
+        "pins": {}
+    },
+    "gge9": {
+        "props": {
+            "Add into BOM": "yes",
+            "Convert to PCB": "yes",
+            "Symbol": "ae533a06c0644921b0462dddf787d729",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "link": "",
+            "Name": "M3铜柱",
+            "Description": "",
+            "Designator": "TP9",
+            "Footprint": "2db290ccbe6f4f5a88dbcfb3a71a7174",
+            "Device": "a35f765168a74d71b365378ad10318e3",
+            "Reuse Block": "",
+            "Group ID": "",
+            "Channel ID": "$1e218",
+            "Unique ID": "gge9",
+            "FootprintName": "M3",
+            "DeviceName": "M3铜柱",
+            "SymbolName": "M3铜柱"
+        },
+        "pins": {
+            "1": "GND"
+        }
+    }
+}

@@ -4,7 +4,8 @@
 
 import json
 from typing import List, Dict
-from config import REF_TOKENS, REFERENCE_MAX_TOKENS, RAG_KB
+from config import REFERENCE_TOKENS, REFERENCE_MAX_TOKENS, RAG_KB_PATH
+from references import *
 
 def _type_mask_string(tok: str) -> str:
     """当 include_gt 为True时，为 token 生成类型掩码 (A=alpha, D=digit, S=symbol)，用于指导字符级修正。"""
@@ -24,13 +25,13 @@ def build_prompt(batch_items: List[Dict], include_gt: bool) -> List[Dict]:
     """
     构建用于 OCR 后处理的 Prompt。
     """
-    kb_snippet = json.dumps(RAG_KB, ensure_ascii=False)
+    kb_snippet = json.dumps(str(RAG_KB_PATH), ensure_ascii=False)
 
     # 参考词表（从文件采样，可能为空）
     ref_head = ""
-    if REF_TOKENS:
+    if REFERENCE_TOKENS:
         # 控制上下文长度，按逗号拼一行更省 token
-        ref_head = "Reference tokens (correct examples; mimic style when similar):\n" + ", ".join(REF_TOKENS[:REFERENCE_MAX_TOKENS]) + "\n\n"
+        ref_head = "Reference tokens (correct examples; mimic style when similar):\n" + ", ".join(REFERENCE_TOKENS[:REFERENCE_MAX_TOKENS]) + "\n\n"
 
     system_msg = (
         "You are a senior PCB schematic engineer and OCR correction expert.\n"
