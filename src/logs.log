@@ -1,0 +1,104 @@
+2025-09-24T11:23:04 WARNING [pcb-ocr-corrector.pipeline] No .txt files found in: .
+2025-09-24T11:23:04 INFO [pcb-ocr-corrector.main] All done. Outputs are under: .
+2025-09-24T11:26:11 ERROR [pcb-ocr-corrector.main] An unhandled error occurred
+Traceback (most recent call last):
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 54, in main
+    code = run(str(INPUT_PATH), str(OUTPUT_PATH), **process_kwargs)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 17, in run
+    if not input_path.exists():
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'exists'
+2025-09-24T11:28:25 ERROR [pcb-ocr-corrector.main] Input path does not exist: data\input\raw_data\labels
+2025-09-24T11:31:32 INFO [pcb-ocr-corrector.pipeline] Found 346 txt file(s) in D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels. Outputting to D:\PCBnet\PCBTagent-publications\PCBTagent\data\output.
+2025-09-24T11:31:32 INFO [pcb-ocr-corrector.pipeline] --- Processing file 1/346: 001_01_001.txt ---
+2025-09-24T11:31:32 ERROR [pcb-ocr-corrector.main] An unhandled error occurred
+Traceback (most recent call last):
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 54, in main
+    code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 26, in run
+    process_folder(input_dir=str(input_path), output_dir=str(output_path), **process_kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 169, in process_folder
+    process_file(input_path=in_path, output_path=out_path, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file() got an unexpected keyword argument 'threshold'
+2025-09-24T11:32:21 INFO [pcb-ocr-corrector.pipeline] Found 346 txt file(s) in D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels. Outputting to D:\PCBnet\PCBTagent-publications\PCBTagent\data\output.
+2025-09-24T11:32:21 INFO [pcb-ocr-corrector.pipeline] --- Processing file 1/346: 001_01_001.txt ---
+2025-09-24T11:32:21 ERROR [pcb-ocr-corrector.main] An unhandled error occurred
+Traceback (most recent call last):
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 54, in main
+    code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 26, in run
+    process_folder(input_dir=str(input_path), output_dir=str(output_path), **process_kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 169, in process_folder
+    process_file(input_path=in_path, output_path=out_path, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file() got an unexpected keyword argument 'threshold'
+2025-09-24T11:34:24 INFO [pcb-ocr-corrector.pipeline] Found 346 txt file(s) in D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels. Outputting to D:\PCBnet\PCBTagent-publications\PCBTagent\data\output.
+2025-09-24T11:34:24 INFO [pcb-ocr-corrector.pipeline] --- Processing file 1/346: 001_01_001.txt ---
+2025-09-24T11:34:24 ERROR [pcb-ocr-corrector.main] An unhandled error occurred
+Traceback (most recent call last):
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 54, in main
+    code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 26, in run
+    process_folder(input_dir=str(input_path), output_dir=str(output_path), **process_kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 169, in process_folder
+    process_file(input_path=in_path, output_path=out_path, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file() missing 1 required positional argument: 'verbosity'
+2025-09-24T11:35:00 INFO [pcb-ocr-corrector.pipeline] Found 346 txt file(s) in D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels. Outputting to D:\PCBnet\PCBTagent-publications\PCBTagent\data\output.
+2025-09-24T11:35:00 INFO [pcb-ocr-corrector.pipeline] --- Processing file 1/346: 001_01_001.txt ---
+2025-09-24T11:35:00 INFO [pcb-ocr-corrector.pipeline] Reading: D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels\001_01_001.txt
+2025-09-24T11:35:00 INFO [pcb-ocr-corrector.pipeline] Total lines: 274
+2025-09-24T11:35:00 INFO [pcb-ocr-corrector.pipeline] Low-confidence items (<1.01): 274
+2025-09-24T11:35:26 INFO [pcb-ocr-corrector.pipeline] Found 346 txt file(s) in D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels. Outputting to D:\PCBnet\PCBTagent-publications\PCBTagent\data\output.
+2025-09-24T11:35:26 INFO [pcb-ocr-corrector.pipeline] --- Processing file 1/346: 001_01_001.txt ---
+2025-09-24T11:35:26 INFO [pcb-ocr-corrector.pipeline] Reading: D:\PCBnet\PCBTagent-publications\PCBTagent\data\input\raw_data\labels\001_01_001.txt
+2025-09-24T11:35:26 INFO [pcb-ocr-corrector.pipeline] Total lines: 274
+2025-09-24T11:35:26 INFO [pcb-ocr-corrector.pipeline] Low-confidence items (<1.01): 274
+2025-09-24T11:36:09 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:36:10 INFO [pcb-ocr-corrector.pipeline] Retrying batch... (Attempt 2/3)
+2025-09-24T11:36:17 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:36:18 INFO [pcb-ocr-corrector.pipeline] Retrying batch... (Attempt 3/3)
+2025-09-24T11:36:25 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:36:25 ERROR [pcb-ocr-corrector.pipeline] Failed to get a valid response for a batch after 3 attempts. Falling back to original OCR values for this entire batch.
+2025-09-24T11:37:00 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
+2025-09-24T11:37:01 INFO [pcb-ocr-corrector.pipeline] Retrying batch... (Attempt 2/3)
+2025-09-24T11:37:38 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
+2025-09-24T11:37:39 INFO [pcb-ocr-corrector.pipeline] Retrying batch... (Attempt 3/3)
+2025-09-24T11:38:29 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:38:37 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:38:45 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T11:38:45 ERROR [pcb-ocr-corrector.pipeline] Failed to get a valid response for a batch after 3 attempts. Falling back to original OCR values for this entire batch.
+2025-09-24T11:38:54 WARNING [llm_clients] GPT call error (attempt 1/4), backing off 1.1s: 403 Client Error: Forbidden for url: https://api.openai.com/v1/chat/completions
+2025-09-24T11:38:55 WARNING [llm_clients] GPT call error (attempt 2/4), backing off 2.1s: 403 Client Error: Forbidden for url: https://api.openai.com/v1/chat/completions
+2025-09-24T11:38:57 WARNING [llm_clients] GPT call error (attempt 3/4), backing off 4.2s: 403 Client Error: Forbidden for url: https://api.openai.com/v1/chat/completions
+2025-09-24T11:39:02 ERROR [llm_clients] GPT call failed after 3 retries: 403 Client Error: Forbidden for url: https://api.openai.com/v1/chat/completions
+2025-09-24T11:39:02 ERROR [pcb-ocr-corrector.main] An unhandled error occurred
+Traceback (most recent call last):
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 54, in main
+    code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\main.py", line 26, in run
+    process_folder(input_dir=str(input_path), output_dir=str(output_path), **process_kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 167, in process_folder
+    process_file(input_path=in_path, output_path=out_path, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 112, in process_file
+    corrected = correct_batch(batch, provider=provider, include_gt=include_gt_in_prompt)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\pipeline.py", line 34, in correct_batch
+    raw_output = call_gpt_chat(messages)
+  File "D:\PCBnet\PCBTagent-publications\PCBTagent\src\llm_clients.py", line 34, in call_gpt_chat
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\25359\AppData\Roaming\Python\Python313\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openai.com/v1/chat/completions
+2025-09-24T11:41:36 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 151. This batch will be retried.
+2025-09-24T11:46:40 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
+2025-09-24T11:47:12 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
+2025-09-24T11:47:44 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
+2025-09-24T11:47:44 ERROR [pcb-ocr-corrector.pipeline] Failed to get a valid response for a batch after 3 attempts. Falling back to original OCR values for this entire batch.
+2025-09-24T11:56:08 WARNING [llm_clients] DeepSeek call error (attempt 1/4), backing off 1.1s: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))
