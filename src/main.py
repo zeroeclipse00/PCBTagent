@@ -36,8 +36,13 @@ def run(input_path: Path, output_path: Path, **process_kwargs) -> int:
 
 
 def main() -> None:
-    # setup_logging_original_fix(verbosity=VERBOSITY, log_file=LOG_FILE)
-    # logger = logging.getLogger(LOGGER_NAME)
+    setup_logging_original_fix(verbosity=VERBOSITY, log_file=LOG_FILE)
+    logger = logging.getLogger(LOGGER_NAME)
+
+    n_inputs = len(list(Path(INPUT_PATH).rglob("*.txt")))
+    print(f"[pcbtagent] INPUT_PATH={INPUT_PATH} | files={n_inputs}")
+    print(f"[pcbtagent] OUTPUT_PATH={OUTPUT_PATH}")
+    
     try:
         process_kwargs = {
             "provider": PROVIDER,
@@ -48,8 +53,8 @@ def main() -> None:
         code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
         sys.exit(code)
     except Exception:
-        # logger = logging.getLogger("pcb-ocr-corrector.main")
-        # logger.exception("An unhandled error occurred")
+        logger = logging.getLogger("pcb-ocr-corrector.main")
+        logger.exception("An unhandled error occurred")
         sys.exit(1)
 
 

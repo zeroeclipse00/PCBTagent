@@ -17,18 +17,18 @@ load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 # Project paths
 # ----------------------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent    # JLC_Text_Parser
 INPUT_PATH = PROJECT_ROOT / Path(os.getenv("INPUT_PATH"))
 OUTPUT_PATH = PROJECT_ROOT / Path(os.getenv("OUTPUT_PATH"))
 
 RAG_KB_PATH = Path(os.getenv(
     "RAG_KB_PATH",
-    PROJECT_ROOT / r"data/resources/knowledge_base_v1.json"
+    PROJECT_ROOT / r"PCBTagent/resources/knowledge_base_v1.json"
 ))
 
 REFERENCE_TOKENS_PATH = Path(os.getenv(
     "REFERENCE_TOKENS_PATH",
-    PROJECT_ROOT / r"data/resources/sampled_gts_unique_700_long_300_short.txt"
+    PROJECT_ROOT / r"PCBTagent/resources/sampled_gts_unique_700_long_300_short.txt"
 ))
 
 # ----------------------------------------------------------------------
@@ -37,7 +37,7 @@ REFERENCE_TOKENS_PATH = Path(os.getenv(
 
 BATCH_SIZE = int(os.getenv("BATCH_SIZE"))
 CONFIDENCE_THRESHOLD = float(os.getenv("CONFIDENCE_THRESHOLD"))
-INCLUDE_GT_IN_PROMPT = bool(os.getenv("INCLUDE_GT_IN_PROMPT").lower())
+INCLUDE_GT_IN_PROMPT = bool(os.getenv("INCLUDE_GT_IN_PROMPT").lower()) in {"1","true","yes"}
 REFERENCE_MAX_TOKENS = int(os.getenv("REFERENCE_MAX_TOKENS"))
 
 # ----------------------------------------------------------------------
