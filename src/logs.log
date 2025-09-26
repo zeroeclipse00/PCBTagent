@@ -102,3 +102,11 @@ requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.
 2025-09-24T11:47:44 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 150. This batch will be retried.
 2025-09-24T11:47:44 ERROR [pcb-ocr-corrector.pipeline] Failed to get a valid response for a batch after 3 attempts. Falling back to original OCR values for this entire batch.
 2025-09-24T11:56:08 WARNING [llm_clients] DeepSeek call error (attempt 1/4), backing off 1.1s: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))
+2025-09-24T19:22:33 ERROR [pcb-ocr-corrector.main] Input path does not exist: D:\PCBnet\JLC_Text_Parser\PCBTagent\data\input\raw_data\labels_with_text
+2025-09-24T19:23:50 WARNING [pcb-ocr-corrector.pipeline] No .txt files found in: D:\PCBnet\JLC_Text_Parser\PCBTagent\data\input\paddle_output_txt
+2025-09-24T21:00:12 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T21:00:24 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T21:00:35 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 50, Got: 49. This batch will be retried.
+2025-09-24T21:00:35 ERROR [pcb-ocr-corrector.pipeline] Failed to get a valid response for a batch after 3 attempts. Falling back to original OCR values for this entire batch.
+2025-09-24T21:02:53 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 25, Got: 24. This batch will be retried.
+2025-09-24T21:03:00 WARNING [pcb-ocr-corrector.parser] LLM returned an incorrect number of lines. Expected: 25, Got: 24. This batch will be retried.

@@ -1,5 +1,3 @@
-# File: config.py
-# Description: Central hub for API keys, RAG knowledge bases, prompt references, and other configs.
 # Refactored by: spn on 2025-09-22
 
 """
@@ -25,12 +23,12 @@ OUTPUT_PATH = PROJECT_ROOT / Path(os.getenv("OUTPUT_PATH"))
 
 RAG_KB_PATH = Path(os.getenv(
     "RAG_KB_PATH",
-    PROJECT_ROOT / "data/references/knowledge_base_v1.json"
+    PROJECT_ROOT / r"data/resources/knowledge_base_v1.json"
 ))
 
 REFERENCE_TOKENS_PATH = Path(os.getenv(
     "REFERENCE_TOKENS_PATH",
-    PROJECT_ROOT / r"data/references/sampled_gts_unique_700_long_300_short.txt"
+    PROJECT_ROOT / r"data/resources/sampled_gts_unique_700_long_300_short.txt"
 ))
 
 # ----------------------------------------------------------------------
@@ -83,3 +81,31 @@ def load_reference_tokens(path: Path, max_n: int) -> List[str]:
     return tokens
 
 REFERENCE_TOKENS = load_reference_tokens(REFERENCE_TOKENS_PATH, REFERENCE_MAX_TOKENS)
+
+# ----------------------------------------------------------------------
+# OCR related
+# ----------------------------------------------------------------------
+
+# Used to ignore text that is too small in size. All text smaller than this font size (unit: pixels) will not generate bounding boxes or labels for it.
+MIN_FONT_SIZE_TO_DRAW = 7
+
+# Defined the class index (class_id) of the text in the output YOLO tag file.
+TEXT_CLASSES = {
+    # 显式定义的文本，包括元件的属性、引脚名称/编号、导线网络名等
+    'explicit_text': 0,
+
+    # 通过模板匹配识别出的输入端口 (Net In) 关联的文本
+    'netin': 0,
+
+    # 通过模板匹配识别出的输出或双向端口 (Net Out/Bidir) 关联的文本
+    'netout_netbidir': 0,
+
+    # 通过启发式规则匹配的电源网络 (Power) 文本
+    'net_text_power': 0,
+
+    # 通过启发式规则匹配的接地网络 (GND) 文本
+    'net_text_gnd': 0,
+
+    # 原理图中的自由文本（例如注释、标题栏信息等）
+    'free_text': 1
+}

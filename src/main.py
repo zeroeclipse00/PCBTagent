@@ -19,11 +19,11 @@ def run(input_path: Path, output_path: Path, **process_kwargs) -> int:
 
     if input_path.is_dir():
         if output_path.exists() and not output_path.is_dir():
-            logger.error("--output must be a DIRECTORY when --input is a DIRECTORY. Got file: %s", output_path)
+            # logger.error("--output must be a DIRECTORY when --input is a DIRECTORY. Got file: %s", output_path)
             return 2
         output_path.mkdir(parents=True, exist_ok=True)
         process_folder(input_dir=str(input_path), output_dir=str(output_path), **process_kwargs)
-        logger.info("All done. Outputs are under: %s", output_path)
+        # logger.info("All done. Outputs are under: %s", output_path)
         return 0
 
     if input_path.is_file():
@@ -36,8 +36,8 @@ def run(input_path: Path, output_path: Path, **process_kwargs) -> int:
 
 
 def main() -> None:
-    setup_logging_original_fix(verbosity=VERBOSITY, log_file=LOG_FILE)
-    logger = logging.getLogger(LOGGER_NAME)
+    # setup_logging_original_fix(verbosity=VERBOSITY, log_file=LOG_FILE)
+    # logger = logging.getLogger(LOGGER_NAME)
     try:
         process_kwargs = {
             "provider": PROVIDER,
@@ -48,8 +48,8 @@ def main() -> None:
         code = run(INPUT_PATH, OUTPUT_PATH, **process_kwargs)
         sys.exit(code)
     except Exception:
-        logger = logging.getLogger("pcb-ocr-corrector.main")
-        logger.exception("An unhandled error occurred")
+        # logger = logging.getLogger("pcb-ocr-corrector.main")
+        # logger.exception("An unhandled error occurred")
         sys.exit(1)
 
 

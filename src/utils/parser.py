@@ -1,5 +1,5 @@
 """
-数据行解析、重建和批处理相关的辅助函数。
+Auxiliary functions related to data row parsing, reconstruction and batch processing.
 """
 import logging
 from typing import List, Tuple, Optional
@@ -10,23 +10,23 @@ logger = logging.getLogger("pcb-ocr-corrector.parser")
 
 def parse_line(line: str) -> Tuple[str, str, float]:
     """
-    解析 'gt||ocr conf' 格式的输入行。
+    Parse the input lines in the format of 'gt||ocr conf'.
 
     Returns:
         Tuple[str, str, float]: (gt, pred, conf)
     """
     if "||" not in line:
-        # 为没有分隔符的行提供备用逻辑
+        # Provide backup logic for lines without delimiters
         parts = line.strip().split()
         if len(parts) >= 2:
             try:
-                # 尝试将最后一个部分解析为置信度
+                # Try to parse the last part as the confidence score
                 conf = float(parts[-1])
                 pred = " ".join(parts[1:-1])
                 gt = parts[0]
                 return gt, pred, conf
             except ValueError:
-                # 如果最后一个部分不是浮点数，则将其视为 pred 的一部分
+                # If the last part is not a floating-point number, regarded as part of the pred
                 return parts[0], " ".join(parts[1:]), 0.0
         elif len(parts) == 1:
             return parts[0], "", 0.0
@@ -44,7 +44,7 @@ def parse_line(line: str) -> Tuple[str, str, float]:
             conf = float(r_tokens[-1])
             pred = " ".join(r_tokens[:-1]).strip()
         except ValueError:
-            # 如果右侧最后一个词不是浮点数，则将整个右侧视为 pred
+            # If the last word on the right is not a floating-point number, the entire right side is regarded as pred
             conf = 0.0
             pred = right
 
@@ -52,23 +52,23 @@ def parse_line(line: str) -> Tuple[str, str, float]:
 
 def rebuild_line(gt: str, pred: str, conf: float, corrected: str) -> str:
     """
-    重建一行，格式为: "gt||pred conf corrected"
+    Rebuild one line in the format: "gt || pred conf corrected"
     """
     return f"{gt}||{pred} {conf:.4f} {corrected}".strip()
 
 def chunked(seq: List, size: int):
-    """将序列切分为指定大小的块。"""
+    """Divide the sequence into blocks of the specified size."""
     for i in range(0, len(seq), size):
         yield seq[i:i+size]
 
 def postprocess_llm_block(raw_text: str, expected_n: int) -> Optional[List[str]]:
     """
-    从 LLM 的原始输出中提取每行的 token，并进行严格的数量检查。
-
-    - 如果行数与预期完全相符，则返回提取的 token 列表。
-    - 如果行数不符（过多或过少），记录警告并返回 None，表示此次返回无效，需要重试。
+    Extract the token of each line from the original output of the LLM and conduct a strict quantity check.
+    
+    - If the number of rows is exactly the same as expected, return the list of extracted tokens.
+    - If the number of lines does not match (too many or too few), record a warning and return None, indicating that this return is invalid and a retry is required.
     """
-    # 过滤掉空行和常见的、非token的干扰行
+    # Filter out blank lines and common, non-token interfering lines
     lines = [ln.strip() for ln in raw_text.strip().splitlines() if ln.strip()]
     common_intros = ["here are the corrected tokens:", "sure, here are the results:"]
     lines = [ln for ln in lines if ln.lower() not in common_intros]

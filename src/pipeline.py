@@ -149,8 +149,10 @@ def process_folder(input_dir: str, output_dir: str, **kwargs):
     """
     os.makedirs(output_dir, exist_ok=True)
     txt_files = sorted([
-        f for f in os.listdir(input_dir) 
-        if os.path.isfile(os.path.join(input_dir, f)) and f.lower().endswith(".txt")
+        os.path.join(root, f)
+        for root, _, files in os.walk(input_dir)
+        for f in files
+        if f.lower().endswith(".txt")
     ])
 
     if not txt_files:
