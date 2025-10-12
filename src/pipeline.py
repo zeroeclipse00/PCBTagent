@@ -3,6 +3,7 @@ The core processing flow includes the logic for handling individual files and en
 """
 
 import os
+from pathlib import Path
 import time
 import math
 import logging
@@ -11,7 +12,7 @@ from tqdm import tqdm
 
 from utils.parser import *
 from llm_clients import call_gpt_chat, call_deepseek_chat
-from prompting import build_prompt
+from prompt_builder import build_prompt
 
 logger = logging.getLogger("pcb-ocr-corrector.pipeline")
 
@@ -62,6 +63,7 @@ def process_file(input_path: str, output_path: str,
     """
     Read the input txt file, correct the low-confidence items in batches, and write the output with additional columns to the txt file.
     """
+    
     logger.info(f"Reading: {input_path}")
     with open(input_path, "r", encoding="utf-8") as f:
         raw_lines = f.readlines()
@@ -168,6 +170,11 @@ def process_folder(input_dir: str, output_dir: str, **kwargs):
         # 关键：先算出相对 input_dir 的路径，再拼到 output_dir
         rel = os.path.relpath(fn, start=input_dir)
         out_path = os.path.join(output_dir, rel)
+
+        # 跳过已存在的输出文件
+        if Path(out_path).exists():
+            logger.info(f"[llm] 跳过已有输出: {out_path}")
+            continue
 
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         logger.info(f"--- Processing file {idx}/{len(txt_files)}: {rel} ---")
