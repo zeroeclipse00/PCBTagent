@@ -1,0 +1,202 @@
+{
+  "locale": "en-US",
+  "version": "2.0.0",
+  "overview": "Conservative, character-level correction policy for PCB schematic OCR. Prefer minimal edits. Keep original style unless a clear OCR confusion applies. Never rename nets or refdes. When unsure, keep the OCR token unchanged.",
+
+  "classes": [
+    {
+      "id": "refdes",
+      "name": "Reference Designator",
+      "regex": "^[A-Z]{1,3}[0-9]+[A-Z]?$",
+      "invariants": [
+        "Must start with 1–3 uppercase letters followed by digits and optional uppercase suffix.",
+        "No insertion or deletion of characters (except space→underscore if spaces exist).",
+        "Case must remain uppercase.",
+        "If the final character is ambiguous and TYPE=D is expected, prefer the digit mapping (e.g., B→8/6, O→0, S→5) that yields a valid refdes.",
+        "If the FIRST character is a digit that could be a letter (e.g., '8'↔'B', '0'↔'O'), prefer the LETTER if it makes a valid refdes.",
+        "Never modify the trailing numeric part of a refdes; digits after the prefix must remain exactly as OCR read them.",
+        "Never add leading or trailing symbols/spaces to a valid refdes.",
+        "Do not add or remove leading '+' or '-' signs.",
+        "Do not add any leading or trailing spaces."
+      ],
+      "confusions_allowed": ["O↔0", "I/l↔1", "S↔5", "B↔8", "Z↔2"],
+        "good": ["U6","U8","R10","C3","U7","R17A","Q5","FB2","B8","B9"],
+        "bad": ["UB (when digit expected)", "10R", "r10", "U_7", "- U18"],
+        "examples": [
+          {"ocr": "UB",  "fix": "U6"},
+          {"ocr": "U8",  "fix": "U8"},
+          {"ocr": "R1O", "fix": "R10"}
+        ]
+    },
+
+    {
+      "id": "diff_pair",
+      "name": "Differential Pair & USB +/- nets",
+      "regex": "^[A-Z0-9_]+(_[PN]|[\\+\\-])$",
+      "invariants": [
+        "Preserve *_P/*_N or D+/D- forms exactly.",
+        "Never change '-' to '_' or '_' to '-'.",
+        "Do not duplicate P/N or +/-."
+      ],
+      "confusions_allowed": ["O↔0", "I/l↔1", "S↔5", "B↔8", "Z↔2"],
+      "good": ["USB_D-", "USB_D+", "HDMI_TX2_N", "HDMI_TX2_P", "MIPI_D0_N", "MIPI_D0_P"],
+      "bad":  ["USB_DN", "USB_D_P", "HDMI_TX2_NN", "HDMI-TX2_N", "D-USB"],
+      "examples": [
+        {"ocr": "USB_DN", "fix": "USB_D-"},
+        {"ocr": "HDMI_TX2_NN", "fix": "HDMI_TX2_N"},
+        {"ocr": "MIPI_DO_N", "fix": "MIPI_D0_N"}
+      ]
+    },
+
+    {
+        "id": "gpio_port",
+        "name": "GPIO / MCU Pin Token",
+        "regex": "(GPIO[0-9]+|IO[0-9]+|P[A-I][0-9]{1,2}).*",
+        "invariants": [
+            "Do not insert characters inside standardized prefixes.",
+            "If token starts with '10' or 'I0' or '1O' followed by digits, treat it as 'IO' + digits when it yields a valid IO\\d+.",
+            "For 'P[A-I]n' style (e.g., PA8), keep exact form.",
+            "Do not add any leading or trailing symbols such as '+', '-', or spaces."
+        ],
+        "confusions_allowed": ["O↔0", "I/l↔1"],
+        "good": ["GPIO29", "IO25", "PA8", "PB10", "PC0"],
+        "bad":  ["I025 (when IO25 is intended)", "1011 (when IO11 is intended)", "GP108", "PAB"],
+        "examples": [
+            {"ocr": "I025", "fix": "IO25"},
+            {"ocr": "1011",  "fix": "IO11"},
+            {"ocr": "GP108", "fix": "GPIO8"},
+            {"ocr": "PAB",  "fix": "PA8"}
+        ]
+    },
+
+    {
+      "id": "voltage_net",
+      "name": "Voltage Nets",
+      "regex": "^([\\+\\-]?\\d(\\.\\d)?V|VCC|VDD|VBAT|VOUT(_[A-Z0-9]+)?)$",
+      "invariants": [
+        "Never convert 3.3V ↔ 3V3.",
+        "Do not add or remove leading + or - signs.",
+        "Maintain exact casing of VCC/VDD/VBAT family.",
+        "Preserve numeric form (no insertion of spaces or symbols)."
+      ],
+      "confusions_allowed": ["O↔0"],
+      "good": ["+3.3V", "3.3V", "-5V", "VCC", "VDD", "VBAT_1", "GND"],
+      "bad":  ["3V3", "+3.3", "Vbat", "vcc", "VBAT-1", "GNI", "IND"],
+      "examples": [
+        {"ocr": "3V3", "fix": "3V3"},
+        {"ocr": "+3.3", "fix": "+3.3V"}
+      ]
+    },
+    {
+      "id": "ground_net",
+      "name": "Ground Nets",
+      "regex": "^(GND|AGND|DGND|PGND|VSS)$",
+      "invariants": [
+        "If OCR is exactly a ground family token, KEEP IT UNCHANGED.",
+        "Do not add any leading or trailing characters (including spaces, '+', or '-').",
+        "Never transform ground family tokens into voltage family tokens.",
+        "Case must remain uppercase."
+      ],
+      "confusions_allowed": ["O↔0","I/l↔1","S↔5","B↔8","Z↔2"],
+      "good": ["GND","AGND","DGND","PGND","VSS"],
+      "bad":  ["-GND","- GND","+GND"," GND","GND ","VCC","3.3V"],
+      "examples": [
+        { "ocr": "GND",  "fix": "GND" },
+        { "ocr": "- GND","fix": "GND" },
+        { "ocr": "+GND","fix": "GND" }
+      ]
+    },
+    {
+        "id": "value_with_unit",
+        "name": "Component Value (+ optional package)",
+        "regex": "^[0-9]+(\\.[0-9]+)?([kKmMuUµnNpP]|[rRkKmM][0-9]+|[0-9]+[rRkKmM][0-9]+)?(F|Ω|ohm)?(\\s+(0402|0603|0805|1206))?$",
+        "invariants": [
+            "Preserve unit/symbols (Ω, µ, ±, °) if present.",
+            "Preserve original letter casing exactly as in the OCR token.",
+            "Do NOT append unit symbols (Ω/F/H) if the OCR token has none; resistor shorthands like '10K', '4R7', '1M' are complete.",
+            "Do NOT expand resistor shorthand (e.g., '4R7' → '4.7Ω' is forbidden; keep '4R7').",
+            "Terminal 0↔Ω substitution is allowed ONLY if TYPE_MASK expects a symbol at the last position OR if replacing creates a valid match to this regex and improves semantic plausibility (e.g., '27Ω').",
+            "Allow space→underscore if needed by style, but do not reformat numbers.",
+            "Do not add or remove a package code unless it already exists."
+        ],
+        "confusions_allowed": ["O↔0"],
+        "good": [
+            "27Ω", "330Ω", "10K", "4R7", "1M",
+            "1.0uF", "22UF", "47pf", "47pF", "2200pF"
+        ],
+        "bad": [
+            "10kΩ (if OCR was '10K')",
+            "4.7Ω (if OCR was '4R7')",
+            "22uF (if OCR was '22UF')",
+            "47pF (if OCR was '47pf')"
+        ],
+        "examples": [
+            {"ocr": "270",  "fix": "27Ω"},
+            {"ocr": "10K",  "fix": "10K"},
+            {"ocr": "4R7",  "fix": "4R7"},
+            {"ocr": "22UF", "fix": "22UF"},
+            {"ocr": "47pf", "fix": "47pf"}
+        ]
+    },
+
+    {
+      "id": "net_name_general",
+      "name": "General Net / Label",
+      "regex": "^[A-Za-z0-9_\\-/\\(\\)\\+\\.%]+$",
+      "invariants": [
+        "Spaces inside token must be replaced with underscores.",
+        "Never convert '-' ↔ '_'",
+        "Keep slashes '/', parentheses '()' and dots '.' as-is.",
+        "Do not add or remove leading '+' or '-' signs.",
+        "Do not add any leading or trailing spaces."
+      ],
+      "confusions_allowed": ["O↔0", "I/l↔1", "S↔5", "B↔8", "Z↔2", "g/q↔9"],
+      "good": [
+        "USB_CC1", "GPIO_24", "HDMI_TX_HPD", "SDIO_CMD", "ADC-VREF", "LPDDR4_DQS1N_B", "I_OUT"
+      ],
+      "bad": [
+        "USB CC1", "ADC_VREF-", "LPDDR4-DQS1N_B", "HDMI_TX__HPD",
+        "T_OUT", "IOUT", "I OUT"
+      ],
+      "examples": [
+        {"ocr": "USB CC1", "fix": "USB_CC1"},
+        {"ocr": "ADC_VREF-", "fix": "ADC-VREF"},
+        {"ocr": "LPDDR4-DQS1N_B", "fix": "LPDDR4_DQS1N_B"},
+        {"ocr": "T_OUT", "fix": "I_OUT"},
+        {"ocr": "IOUT",  "fix": "I_OUT"},
+        {"ocr": "I OUT", "fix": "I_OUT"}
+      ]
+    },
+
+    {
+      "id": "interface_signal",
+      "name": "Common Interface Signals",
+      "regex": "^(I(IC|2C)[0-9]*_(SCL|SDA)|SPI[0-9]*_(CS|CLK|MOSI|MISO)|UART[0-9]*_(TX|RX)|CAN(_H|_L)|SDIO_(CMD|CLK|D[0-9])|USB(_D\\+|_D\\-)|HDMI(_TX[0-9]+_[PN]|_SCL))$",
+      "invariants": [
+        "Preserve bus naming and signal roles.",
+        "Never change +/- polarity names or map to P/N.",
+        "Do not expand or abbreviate beyond original style.",
+        "Treat 'IIC' as a distinct protocol spelling from 'I2C'. Never auto-normalize IIC↔I2C."
+      ],
+      "confusions_allowed": ["O↔0", "I/l↔1"],
+      "good": ["I2C1_SCL", "SPI2_MOSI", "UART1_TX", "CAN_H", "SDIO_CMD", "USB_D-", "HDMI_TX2_N", "IIC_SCL"],
+      "bad":  ["I2Cl_SCL", "SP1_M0SI", "UART_TX1", "CANH", "USB_DN", "IIC SDA"],
+      "examples": [
+        {"ocr": "I2Cl_SCL", "fix": "I2C1_SCL"},
+        {"ocr": "SP1_M0SI", "fix": "SPI1_MOSI"},
+        {"ocr": "USB_DN", "fix": "USB_D-"}
+      ]
+    }
+  ],
+  
+  "priority": [
+    "diff_pair",
+    "interface_signal",
+    "ground_net",
+    "voltage_net",
+    "refdes",
+    "gpio_port",
+    "value_with_unit",
+    "net_name_general"
+  ]
+}

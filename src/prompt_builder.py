@@ -21,30 +21,13 @@ def _type_mask_string(tok: str) -> str:
             mask.append('S')
     return ''.join(mask)
 
-# spn: 10.12 add
-def _lock_len_tag(conf: float | None, L: int) -> str:
-    """
-    基于长度与置信度给出长度锁定提示：
-      - L <= 2:        HARD  （严格不改长度）
-      - conf >= 0.92:  HARD
-      - 0.80 <= conf < 0.92: SOFT
-      - else:          NONE
-    """
-    if L <= 2:
-        return "HARD"
-    if conf is None:
-        return "NONE"
-    if conf >= 0.92:
-        return "HARD"
-    if conf >= 0.80:
-        return "SOFT"
-    return "NONE"
-
 def build_prompt(batch_items: List[Dict], include_gt: bool) -> List[Dict]:
     """
     Build a Prompt for OCR post-processing.
     """
-    kb_snippet = json.dumps(str(RAG_KB_PATH), ensure_ascii=False)
+    with open(RAG_KB_PATH, "r", encoding="utf-8") as f:
+        kb_content = json.load(f)
+    kb_snippet = json.dumps(kb_content, ensure_ascii=False, indent=2)
 
     # Reference word list (sampled from the file, possibly empty)
     ref_head = ""
@@ -61,22 +44,18 @@ def build_prompt(batch_items: List[Dict], include_gt: bool) -> List[Dict]:
         pred = item.get("pred", "")
         L = len(pred)
         conf = item.get("conf", None)
-        gt = item.get("gt", None)
-
-        lock_len = _lock_len_tag(conf, L)
-        ocr_mask = _type_mask_string(pred)
 
         if include_gt and item.get("gt"):
-            gt_mask = _type_mask_string(gt)
-            lines.append(
-                f"- OCR: {pred} ; LEN: {L} ; CONF: {conf if conf is not None else 'N/A'} ; "
-                f"GT: {gt} ; TYPE_MASK_OCR: {ocr_mask} ; TYPE_MASK_GT: {gt_mask} ; LOCK_LEN: {lock_len}"
-            )
+            tm = _type_mask_string(item["gt"])
+            if conf is None:
+                lines.append(f"- OCR: {pred} ; LEN: {L} ; GT: {item['gt']} ; TYPE_MASK: {tm}")
+            else:
+                lines.append(f"- OCR: {pred} ; LEN: {L} ; CONF: {conf:.4f} ; GT: {item['gt']} ; TYPE_MASK: {tm}")
         else:
-            lines.append(
-                f"- OCR: {pred} ; LEN: {L} ; CONF: {conf if conf is not None else 'N/A'} ; "
-                f"TYPE_MASK_OCR: {ocr_mask} ; LOCK_LEN: {lock_len}"
-            )
+            if conf is None:
+                lines.append(f"- OCR: {pred} ; LEN: {L}")
+            else:
+                lines.append(f"- OCR: {pred} ; LEN: {L} ; CONF: {conf:.4f}")
 
     user_msg = header + "\n" + "\n".join(lines)
     return [

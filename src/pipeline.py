@@ -11,7 +11,7 @@ from typing import List, Dict, Optional
 from tqdm import tqdm
 
 from utils.parser import *
-from llm_clients import call_gpt_chat, call_deepseek_chat
+from llm_clients import *
 from prompt_builder import build_prompt
 
 logger = logging.getLogger("pcb-ocr-corrector.pipeline")
@@ -37,7 +37,8 @@ def correct_batch(items: List[Dict], provider: str, include_gt: bool) -> List[Op
         else:
             raise ValueError("provider must be 'gpt' or 'deepseek'")
 
-        corrected_list = postprocess_llm_block(raw_output, expected_n=expected_n)
+        second_correction = refined_token_postprocess(raw_output)
+        corrected_list = postprocess_llm_block(second_correction, expected_n=expected_n)
 
         if corrected_list is not None:
             return corrected_list

@@ -21,10 +21,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent    # JLC_Text_Parse
 INPUT_PATH = PROJECT_ROOT / Path(os.getenv("INPUT_PATH"))
 OUTPUT_PATH = PROJECT_ROOT / Path(os.getenv("OUTPUT_PATH"))
 
-RAG_KB_PATH = Path(os.getenv(
-    "RAG_KB_PATH",
-    PROJECT_ROOT / r"PCBTagent/resources/knowledge_base_v1.json"
-))
+RAG_KB_PATH = PROJECT_ROOT / Path(os.getenv("RAG_KB_PATH"))
 
 REFERENCE_TOKENS_PATH = Path(os.getenv(
     "REFERENCE_TOKENS_PATH",

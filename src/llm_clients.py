@@ -2,6 +2,7 @@
 The client interacting with the LLM API includes retry and exponential backoff logic.
 """
 
+import re
 import time
 import random
 import logging
@@ -70,3 +71,33 @@ def call_deepseek_chat(messages: List[Dict], model: str = DEEPSEEK_MODEL,
             logger.warning(f"DeepSeek call error (attempt {attempt+1}/{max_retries+1}), backing off {sleep_s:.1f}s: {e}")
             time.sleep(sleep_s)
     raise ConnectionError("LLM call failed after all retries.")
+
+
+def refined_token_postprocess(original_result):
+    """
+    A more rigorous result correction function corrects new_result according to specific rules.
+    """
+    SPACE_INSIDE_WORDS = re.compile(r'(?<=\w)\s+(?=\w)')  # 仅替换单词内部空格
+    MULTI_UNDERSCORES  = re.compile(r'_{2,}')
+    
+    # 2) 先做“仅单词内部”的空格 -> 下划线（知识库：Spaces vs. Underscores）
+    #    比如 "VCCIO FLASH" -> "VCCIO_FLASH"；"A - B" 中的连字符不变
+    candidate = SPACE_INSIDE_WORDS.sub("_", original_result)
+
+    # 3) 若 original_result 出现 “GP” + 非10 的两位数字（如 GP12, GP19），直接信任 original_result（避免误把它改成 GPIO）
+    safe_gp_pattern = re.compile(r'(^|[^A-Za-z0-9])GP(\d\b|(?!10)\d{2}\b)')
+    if safe_gp_pattern.search(original_result):
+        candidate = SPACE_INSIDE_WORDS.sub("_", original_result)  # 也顺手把 original 里的内部空格替换掉
+
+    # 4) 仅修正特例：GP(10|I0|1O)(\d) -> GPIO\3   （保持前导分隔符）
+    gp_bug = re.compile(r'(^|[^A-Za-z0-9])GP(10|I0|1O)(\d)')
+    candidate = gp_bug.sub(r'\1GPIO\3', original_result)
+
+    # 捕捉各种大小写混乱的 VCC（包括 vCc、VcC、vCC 等），但保留像 AVCC、VCC3V3 这类组合
+    candidate = re.sub(r'(?<![A-Z0-9_])v+ ?c+ ?c+(?![A-Z0-9_])', 'VCC', original_result, flags=re.IGNORECASE)
+    candidate = re.sub(r'3v3', '3V3', original_result, flags=re.IGNORECASE)
+
+    # 7) 合并重复下划线（有些场景可能产生 "__"）
+    candidate = MULTI_UNDERSCORES.sub('_', original_result)
+    
+    return candidate
