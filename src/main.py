@@ -1,4 +1,3 @@
-# Refactored by: spn on 2025-09-18
 
 import logging
 import sys

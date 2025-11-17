@@ -1,5 +1,3 @@
-# Refactored by: spn on 2025-09-22
-
 """
 Centralized management of API keys, knowledge bases, prompt references, 
 and other global configurations.
