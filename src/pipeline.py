@@ -165,16 +165,13 @@ def process_folder(input_dir: str, output_dir: str, **kwargs):
     logger.info(f"Found {len(txt_files)} txt file(s) in {input_dir}. Outputting to {output_dir}.")
 
     for idx, fn in enumerate(txt_files, start=1):
-        # fn = 绝对路径（来自上面的列表）
         in_path = fn
 
-        # 关键：先算出相对 input_dir 的路径，再拼到 output_dir
         rel = os.path.relpath(fn, start=input_dir)
         out_path = os.path.join(output_dir, rel)
 
-        # 跳过已存在的输出文件
         if Path(out_path).exists():
-            logger.info(f"[llm] 跳过已有输出: {out_path}")
+            logger.info(f"[llm] Skip existing output: {out_path}")
             continue
 
         os.makedirs(os.path.dirname(out_path), exist_ok=True)

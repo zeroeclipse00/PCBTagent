@@ -4,7 +4,6 @@ Auxiliary functions related to data row parsing, reconstruction and batch proces
 import logging
 from typing import List, Tuple, Optional
 
-# 获取一个日志记录器实例，用于在本模块中记录日志
 logger = logging.getLogger("pcb-ocr-corrector.parser")
 
 

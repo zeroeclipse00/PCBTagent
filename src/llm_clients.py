@@ -77,27 +77,27 @@ def refined_token_postprocess(original_result):
     """
     A more rigorous result correction function corrects new_result according to specific rules.
     """
-    SPACE_INSIDE_WORDS = re.compile(r'(?<=\w)\s+(?=\w)')  # 仅替换单词内部空格
+    SPACE_INSIDE_WORDS = re.compile(r'(?<=\w)\s+(?=\w)')  # Only replace the internal spaces of words
     MULTI_UNDERSCORES  = re.compile(r'_{2,}')
     
-    # 2) 先做“仅单词内部”的空格 -> 下划线（知识库：Spaces vs. Underscores）
-    #    比如 "VCCIO FLASH" -> "VCCIO_FLASH"；"A - B" 中的连字符不变
+    # Replace spaces within words only with underscores (Knowledge base: Spaces vs. Underscores).
+    # For example, "VCCIO FLASH" -> "VCCIO_FLASH"; the hyphen in "A - B" remains unchanged
     candidate = SPACE_INSIDE_WORDS.sub("_", original_result)
 
-    # 3) 若 original_result 出现 “GP” + 非10 的两位数字（如 GP12, GP19），直接信任 original_result（避免误把它改成 GPIO）
+    # If "GP" + a two-digit number that is not 10 (e.g., GP12, GP19) appears in original_result, directly trust original_result (to avoid mistakenly changing it to GPIO).
     safe_gp_pattern = re.compile(r'(^|[^A-Za-z0-9])GP(\d\b|(?!10)\d{2}\b)')
     if safe_gp_pattern.search(original_result):
         candidate = SPACE_INSIDE_WORDS.sub("_", original_result)  # 也顺手把 original 里的内部空格替换掉
 
-    # 4) 仅修正特例：GP(10|I0|1O)(\d) -> GPIO\3   （保持前导分隔符）
+    # Only fix specific cases: GP(10|I0|1O)(\d) -> GPIO\3 (preserve leading separator)
     gp_bug = re.compile(r'(^|[^A-Za-z0-9])GP(10|I0|1O)(\d)')
     candidate = gp_bug.sub(r'\1GPIO\3', original_result)
 
-    # 捕捉各种大小写混乱的 VCC（包括 vCc、VcC、vCC 等），但保留像 AVCC、VCC3V3 这类组合
+    # Capture various case-mangled versions of VCC (including vCc, VcC, vCC, etc.), but preserve combinations like AVCC, VCC3V3.
     candidate = re.sub(r'(?<![A-Z0-9_])v+ ?c+ ?c+(?![A-Z0-9_])', 'VCC', original_result, flags=re.IGNORECASE)
     candidate = re.sub(r'3v3', '3V3', original_result, flags=re.IGNORECASE)
 
-    # 7) 合并重复下划线（有些场景可能产生 "__"）
+    # Merge duplicate underscores (some scenarios may produce "__").
     candidate = MULTI_UNDERSCORES.sub('_', original_result)
     
     return candidate
